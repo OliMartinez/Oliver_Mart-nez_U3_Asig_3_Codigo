@@ -1,0 +1,3 @@
+analisis,N,k,chi2,p_friedman,F_iman_davenport,p_iman_davenport,CD_nemenyi,control,datasets
+A: conjuntos con los 13 modelos,3,13,24.987974098057354,0.014879964463884485,4.538306451612903,0.000798081017475893,10.534668580981137,KNN (k=5),Iris;Moons;Wine
+"B: los 14 conjuntos, modelos completos",3,13,24.987974098057354,0.014879964463884485,4.538306451612903,0.000798081017475893,10.534668580981137,KNN (k=5),Iris;Moons;Wine

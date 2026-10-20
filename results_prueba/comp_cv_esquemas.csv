@@ -1,0 +1,73 @@
+dataset,model,scheme,rep,k,estimate,fold_std,folds_missing_class
+Iris,Árbol de Decisión (entropía),Holdout 90/10,0,1,0.8666666666666667,0.0,0
+Iris,Árbol de Decisión (entropía),Holdout 90/10,1,1,1.0,0.0,0
+Iris,Árbol de Decisión (entropía),Holdout 90/10,2,1,0.9333333333333332,0.0,0
+Iris,Árbol de Decisión (entropía),10-fold estratificado,0,10,0.9333333333333332,0.0516397779494322,0
+Iris,Árbol de Decisión (entropía),10-fold estratificado,1,10,0.9533333333333334,0.0599999999999999,0
+Iris,Árbol de Decisión (entropía),5-fold estratificado,0,5,0.9533333333333334,0.0339934634239519,0
+Iris,Árbol de Decisión (entropía),5-fold estratificado,1,5,0.9466666666666664,0.0163299316185545,0
+Iris,Árbol de Decisión (entropía),10-fold sin estratificar,0,10,0.9435714285714284,0.0535986997018152,0
+Iris,Árbol de Decisión (entropía),10-fold sin estratificar,1,10,0.937962962962963,0.0554087566680636,0
+Iris,Random Forest,Holdout 90/10,0,1,0.9333333333333332,0.0,0
+Iris,Random Forest,Holdout 90/10,1,1,1.0,0.0,0
+Iris,Random Forest,Holdout 90/10,2,1,0.9333333333333332,0.0,0
+Iris,KNN (k=5),Holdout 90/10,0,1,0.9333333333333332,0.0,0
+Iris,KNN (k=5),Holdout 90/10,1,1,1.0,0.0,0
+Iris,KNN (k=5),Holdout 90/10,2,1,0.9333333333333332,0.0,0
+Iris,KNN (k=5),10-fold estratificado,0,10,0.96,0.0533333333333333,0
+Iris,KNN (k=5),10-fold estratificado,1,10,0.96,0.0533333333333333,0
+Iris,KNN (k=5),10-fold sin estratificar,0,10,0.9552380952380952,0.0695730781431867,0
+Iris,KNN (k=5),10-fold sin estratificar,1,10,0.9525925925925924,0.0539661530870262,0
+Iris,KNN (k=5),5-fold estratificado,0,5,0.9733333333333332,0.0249443825784929,0
+Iris,KNN (k=5),5-fold estratificado,1,5,0.96,0.0249443825784929,0
+Iris,Mínima Distancia,Holdout 90/10,0,1,0.8000000000000002,0.0,0
+Iris,Mínima Distancia,Holdout 90/10,1,1,0.9333333333333332,0.0,0
+Iris,Mínima Distancia,Holdout 90/10,2,1,0.9333333333333332,0.0,0
+Iris,Mínima Distancia,10-fold estratificado,0,10,0.86,0.0866666666666666,0
+Iris,Mínima Distancia,10-fold estratificado,1,10,0.86,0.0813770374382246,0
+Iris,Mínima Distancia,10-fold sin estratificar,0,10,0.8301587301587302,0.1798266290850515,0
+Iris,Mínima Distancia,10-fold sin estratificar,1,10,0.8604232804232804,0.0829056970861077,0
+Iris,Mínima Distancia,5-fold estratificado,0,5,0.8666666666666666,0.0596284793999943,0
+Iris,Mínima Distancia,5-fold estratificado,1,5,0.86,0.0489897948556636,0
+Wine,Árbol de Decisión (entropía),Holdout 90/10,0,1,1.0,0.0,0
+Wine,Árbol de Decisión (entropía),Holdout 90/10,1,1,0.9444444444444444,0.0,0
+Wine,Árbol de Decisión (entropía),Holdout 90/10,2,1,0.8857142857142858,0.0,0
+Wine,Árbol de Decisión (entropía),10-fold estratificado,0,10,0.9199206349206348,0.0819549264981932,0
+Wine,Árbol de Decisión (entropía),10-fold estratificado,1,10,0.9359523809523808,0.0613939548088802,0
+Wine,Árbol de Decisión (entropía),10-fold sin estratificar,0,10,0.9342724867724868,0.0748850740363463,0
+Wine,Árbol de Decisión (entropía),10-fold sin estratificar,1,10,0.9507936507936507,0.0508865717520966,0
+Wine,Árbol de Decisión (entropía),5-fold estratificado,0,5,0.9055507455507454,0.0704324216644897,0
+Wine,Árbol de Decisión (entropía),5-fold estratificado,1,5,0.953862433862434,0.0288530118132812,0
+Wine,Random Forest,Holdout 90/10,0,1,1.0,0.0,0
+Wine,Random Forest,Holdout 90/10,1,1,1.0,0.0,0
+Wine,Random Forest,Holdout 90/10,2,1,1.0,0.0,0
+Iris,Random Forest,5-fold estratificado,0,5,0.96,0.038873012632302,0
+Iris,Random Forest,5-fold estratificado,1,5,0.9533333333333333,0.0266666666666667,0
+Iris,Random Forest,10-fold sin estratificar,0,10,0.9635714285714286,0.0500773526121939,0
+Iris,Random Forest,10-fold sin estratificar,1,10,0.9555555555555556,0.053639808733186,0
+Iris,Random Forest,10-fold estratificado,0,10,0.9533333333333334,0.052068331172711,0
+Iris,Random Forest,10-fold estratificado,1,10,0.96,0.0611010092660778,0
+Wine,KNN (k=5),Holdout 90/10,0,1,1.0,0.0,0
+Wine,KNN (k=5),Holdout 90/10,1,1,1.0,0.0,0
+Wine,KNN (k=5),Holdout 90/10,2,1,0.9523809523809524,0.0,0
+Wine,KNN (k=5),10-fold estratificado,0,10,0.9761904761904764,0.0383917035633264,0
+Wine,KNN (k=5),10-fold estratificado,1,10,0.9720238095238096,0.0229070016724926,0
+Wine,KNN (k=5),10-fold sin estratificar,0,10,0.9723280423280424,0.0342144811655002,0
+Wine,KNN (k=5),10-fold sin estratificar,1,10,0.9660185185185186,0.0449814204900246,0
+Wine,KNN (k=5),5-fold estratificado,0,5,0.9765079365079364,0.015071844406945,0
+Wine,KNN (k=5),5-fold estratificado,1,5,0.9673015873015874,0.0109328097509349,0
+Wine,Mínima Distancia,Holdout 90/10,0,1,1.0,0.0,0
+Wine,Mínima Distancia,Holdout 90/10,1,1,1.0,0.0,0
+Wine,Mínima Distancia,Holdout 90/10,2,1,0.9523809523809524,0.0,0
+Wine,Mínima Distancia,10-fold estratificado,0,10,0.980952380952381,0.0315869027652895,0
+Wine,Mínima Distancia,10-fold estratificado,1,10,0.9714285714285716,0.0315869027652895,0
+Wine,Mínima Distancia,10-fold sin estratificar,0,10,0.9723280423280424,0.0342144811655002,0
+Wine,Mínima Distancia,10-fold sin estratificar,1,10,0.9657407407407408,0.0388558060339949,0
+Wine,Mínima Distancia,5-fold estratificado,0,5,0.980952380952381,0.0178174161274949,0
+Wine,Mínima Distancia,5-fold estratificado,1,5,0.9661904761904762,0.0188988902427139,0
+Wine,Random Forest,10-fold estratificado,0,10,0.9904761904761904,0.019047619047619,0
+Wine,Random Forest,10-fold estratificado,1,10,0.9801587301587302,0.0243975018237132,0
+Wine,Random Forest,5-fold estratificado,0,5,0.9801587301587302,0.0191136421885591,0
+Wine,Random Forest,5-fold estratificado,1,5,0.9857142857142858,0.011664236870396,0
+Wine,Random Forest,10-fold sin estratificar,0,10,0.9841269841269842,0.0257036143946901,0
+Wine,Random Forest,10-fold sin estratificar,1,10,0.9777777777777776,0.03469443332443555,0

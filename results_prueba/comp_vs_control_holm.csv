@@ -1,0 +1,25 @@
+analisis,control,model,rank_diff,z,p,p_holm,significativo_vs_control,nemenyi_vs_control
+A: conjuntos con los 13 modelos,KNN (k=5),One-Step KNN,9.833333333333332,3.092440268329659,0.001985181807699945,0.02382218169239934,True,False
+A: conjuntos con los 13 modelos,KNN (k=5),CHAID,8.166666666666666,2.5682978499686997,0.010219930093385033,0.11241923102723536,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),CART (Gini + poda),7.0,2.201398157116029,0.02770784935807982,0.27707849358079817,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),C5.0,5.833333333333332,1.8344984642633568,0.06658003555292498,0.5992203199763249,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),Mínima Distancia,5.833333333333332,1.8344984642633568,0.06658003555292498,0.5992203199763249,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),Árbol de Decisión (entropía),5.666666666666666,1.782084222427261,0.07473549830588254,0.5992203199763249,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),CM-KNN,3.9999999999999996,1.257941804066302,0.2084128036841486,1.0,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),Gradient Boosting,3.4999999999999996,1.1006990785580142,0.2710276474293767,1.0,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),CV-KNN,2.9999999999999996,0.9434563530497264,0.3454475304692258,1.0,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),Distances-CS-KNN,0.833333333333333,0.2620712091804795,0.7932665429730058,1.0,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),Random Forest,0.5,0.15724272550828775,0.8750535570128657,1.0,False,False
+A: conjuntos con los 13 modelos,KNN (k=5),Direct-CS-KNN,0.0,0.0,1.0,1.0,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),One-Step KNN,9.833333333333332,3.092440268329659,0.001985181807699945,0.02382218169239934,True,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),CHAID,8.166666666666666,2.5682978499686997,0.010219930093385033,0.11241923102723536,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),CART (Gini + poda),7.0,2.201398157116029,0.02770784935807982,0.27707849358079817,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),C5.0,5.833333333333332,1.8344984642633568,0.06658003555292498,0.5992203199763249,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),Mínima Distancia,5.833333333333332,1.8344984642633568,0.06658003555292498,0.5992203199763249,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),Árbol de Decisión (entropía),5.666666666666666,1.782084222427261,0.07473549830588254,0.5992203199763249,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),CM-KNN,3.9999999999999996,1.257941804066302,0.2084128036841486,1.0,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),Gradient Boosting,3.4999999999999996,1.1006990785580142,0.2710276474293767,1.0,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),CV-KNN,2.9999999999999996,0.9434563530497264,0.3454475304692258,1.0,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),Distances-CS-KNN,0.833333333333333,0.2620712091804795,0.7932665429730058,1.0,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),Random Forest,0.5,0.15724272550828775,0.8750535570128657,1.0,False,False
+"B: los 14 conjuntos, modelos completos",KNN (k=5),Direct-CS-KNN,0.0,0.0,1.0,1.0,False,False

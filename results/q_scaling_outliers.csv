@@ -1,0 +1,15 @@
+condition,model,acc,std
+original (sin escalar),Árbol de Decisión,0.8902912621359225,0.024580560973149864
+original (sin escalar),Árbol + StandardScaler,0.8922330097087379,0.026213592233009744
+original (sin escalar),Random Forest,0.9126213592233009,0.024174562326191727
+original (sin escalar),Gradient Boosting,0.8932038834951456,0.024561379884802975
+original (sin escalar),KNN (k=5) sin escalar,0.807766990291262,0.029061416596302445
+original (sin escalar),KNN (k=5) + StandardScaler,0.8223300970873785,0.02678274606627906
+original (sin escalar),KNN (k=5) + MinMaxScaler,0.8242718446601941,0.0320388349514563
+5% de celdas atípicas (x10),Árbol de Decisión,0.8533980582524272,0.023959150833501107
+5% de celdas atípicas (x10),Árbol + StandardScaler,0.8533980582524272,0.023959150833501107
+5% de celdas atípicas (x10),Random Forest,0.883495145631068,0.029126213592233042
+5% de celdas atípicas (x10),Gradient Boosting,0.8650485436893204,0.029908586020872582
+5% de celdas atípicas (x10),KNN (k=5) sin escalar,0.7514563106796116,0.039125129474970634
+5% de celdas atípicas (x10),KNN (k=5) + StandardScaler,0.7825242718446601,0.03136989208039515
+5% de celdas atípicas (x10),KNN (k=5) + MinMaxScaler,0.7650485436893204,0.04791830166700218

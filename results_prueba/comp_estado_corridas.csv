@@ -1,0 +1,14 @@
+model,ok
+C5.0,9
+CART (Gini + poda),9
+CHAID,9
+CM-KNN,9
+CV-KNN,9
+Direct-CS-KNN,9
+Distances-CS-KNN,9
+Gradient Boosting,9
+KNN (k=5),9
+Mínima Distancia,9
+One-Step KNN,9
+Random Forest,9
+Árbol de Decisión (entropía),9

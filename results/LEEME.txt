@@ -1,0 +1,1 @@
+Aquí se guardan los resultados. Modo desde cero: debe estar vacía. Modo con Colab: copie aquí el contenido de la carpeta results/ de Google Drive.

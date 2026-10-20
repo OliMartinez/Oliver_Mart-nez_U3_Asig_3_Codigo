@@ -1,0 +1,22 @@
+{
+  "fecha": "2026-10-11 11:59",
+  "sistema": "Windows-10-10.0.19045-SP0",
+  "procesador": "AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD",
+  "maquina": "AMD64",
+  "nucleos_logicos": 8,
+  "python": "3.11.17",
+  "entorno_conda": "abp-arboles",
+  "hilos_medicion": 1,
+  "ram_gb": 31.6,
+  "nucleos_fisicos": 4,
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.6",
+  "imblearn": "0.14.2",
+  "blas": [
+    "mkl 2026.1-Product",
+    "openmp None"
+  ],
+  "c50": "C50 0.2.0 (Rscript: C:\\Users\\olixe\\anaconda3\\envs\\abp-arboles\\Scripts\\Rscript.EXE)"
+}

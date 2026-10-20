@@ -1,0 +1,9 @@
+feature,min,max,n_outliers_iqr
+cement,102.0,540.0,0
+slag,0.0,359.4,2
+ash,0.0,200.1,0
+water,121.8,247.0,9
+superplastic,0.0,32.2,10
+coarseagg,801.0,1145.0,0
+fineagg,594.0,992.6,5
+age,1.0,365.0,59

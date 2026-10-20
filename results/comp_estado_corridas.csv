@@ -1,0 +1,14 @@
+model,importado del estudio base,ok,omitido (costo O(m n^3))
+C5.0,0,135,0
+CART (Gini + poda),130,5,0
+CHAID,0,135,0
+CM-KNN,0,125,10
+CV-KNN,0,135,0
+Direct-CS-KNN,0,135,0
+Distances-CS-KNN,0,135,0
+Gradient Boosting,130,5,0
+KNN (k=5),0,135,0
+Mínima Distancia,0,135,0
+One-Step KNN,0,135,0
+Random Forest,130,5,0
+Árbol de Decisión (entropía),0,135,0

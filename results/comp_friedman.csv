@@ -1,0 +1,3 @@
+analisis,N,k,chi2,p_friedman,F_iman_davenport,p_iman_davenport,CD_nemenyi,control,datasets
+A: conjuntos con los 13 modelos,13,13,63.1336732431833,6.021935009228821e-09,8.158006301919215,1.4363987725484038e-11,5.0606910924629,Random Forest,BCW (Original);Circles;Concrete;Forest Fires;Glass;HAR;Iris;Lineal rotado 45°;Moons;Ortogonal IF-THEN;Wine;XOR 0°;XOR rotado 45°
+"B: los 14 conjuntos, modelos completos",14,12,64.87428571428576,1.1379146571542879e-09,9.462653074309175,1.1609973949928945e-12,4.453533300329397,Random Forest,BCW (Original);Circles;Concrete;Credit Card;Forest Fires;Glass;HAR;Iris;Lineal rotado 45°;Moons;Ortogonal IF-THEN;Wine;XOR 0°;XOR rotado 45°

@@ -1,0 +1,157 @@
+
+==============================================================================
+[2026-10-11 09:27:00] INICIO: PRUEBA RÁPIDA  |  comando: python correr.py --prueba
+  equipo: DESKTOP-HQ7OLIU | Windows-10-10.0.19045-SP0 | Python 3.11.17 | entorno: abp-arboles | hilos lógicos: 8 | procesos en paralelo: automático (la mitad de los hilos)
+  pasos: benchmark_new -> separability -> cv_schemes -> timing -> benchmark_full -> significance -> summary -> src.visualization_comp
+==============================================================================
+[2026-10-11 09:27:00] Inicio de los experimentos (PRUEBA RÁPIDA): 8 pasos
+
+[2026-10-11 09:27:00] >>> PASO 1/8: src.comparativa benchmark_new
+== comparativa benchmark_new
+  procesos en paralelo: 4
+  pliegues por calcular: 9
+  Iris | pliegue 2: Árbol de Decisión (entropía) 0.941, C5.0 0.880, CHAID 0.837, KNN (k=5) 0.980, Mínima Distancia 0.824, CV-KNN 0.922, Direct-CS-KNN 0.980, Distances-CS-KNN 0.980, CM-KNN 0.922, One-Step KNN 0.686
+  Iris | pliegue 1: Árbol de Decisión (entropía) 0.918, C5.0 0.900, CHAID 0.857, KNN (k=5) 0.940, Mínima Distancia 0.839, CV-KNN 0.940, Direct-CS-KNN 0.940, Distances-CS-KNN 0.940, CM-KNN 0.940, One-Step KNN 0.710
+  Iris | pliegue 0: Árbol de Decisión (entropía) 1.000, C5.0 0.960, CHAID 0.941, KNN (k=5) 1.000, Mínima Distancia 0.920, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.665
+  Wine | pliegue 0: Árbol de Decisión (entropía) 0.965, C5.0 0.951, CHAID 0.938, KNN (k=5) 0.972, Mínima Distancia 0.986, CV-KNN 0.944, Direct-CS-KNN 0.972, Distances-CS-KNN 0.944, CM-KNN 0.986, One-Step KNN 0.869
+  Wine | pliegue 1: Árbol de Decisión (entropía) 0.954, C5.0 0.954, CHAID 0.815, KNN (k=5) 0.950, Mínima Distancia 0.986, CV-KNN 0.971, Direct-CS-KNN 0.950, Distances-CS-KNN 0.971, CM-KNN 0.958, One-Step KNN 0.946
+  Wine | pliegue 2: Árbol de Decisión (entropía) 0.892, C5.0 0.951, CHAID 0.854, KNN (k=5) 0.972, Mínima Distancia 0.972, CV-KNN 0.972, Direct-CS-KNN 0.972, Distances-CS-KNN 0.958, CM-KNN 0.986, One-Step KNN 0.874
+  Moons | pliegue 0: Árbol de Decisión (entropía) 0.967, C5.0 0.964, CHAID 0.949, KNN (k=5) 0.973, Mínima Distancia 0.877, CV-KNN 0.964, Direct-CS-KNN 0.973, Distances-CS-KNN 0.973, CM-KNN 0.943, One-Step KNN 0.901
+  Moons | pliegue 1: Árbol de Decisión (entropía) 0.964, C5.0 0.931, CHAID 0.946, KNN (k=5) 0.976, Mínima Distancia 0.838, CV-KNN 0.970, Direct-CS-KNN 0.976, Distances-CS-KNN 0.976, CM-KNN 0.931, One-Step KNN 0.634
+  Moons | pliegue 2: Árbol de Decisión (entropía) 0.952, C5.0 0.961, CHAID 0.955, KNN (k=5) 0.967, Mínima Distancia 0.856, CV-KNN 0.964, Direct-CS-KNN 0.967, Distances-CS-KNN 0.967, CM-KNN 0.955, One-Step KNN 0.856
+   (58.1 s)
+[2026-10-11 09:28:05] <<< FIN PASO 1/8: src.comparativa benchmark_new | 1.1 min | OK
+[2026-10-11 09:28:05] [1/8] src.comparativa benchmark_new terminó (1 min)
+
+[2026-10-11 09:28:05] >>> PASO 2/8: src.comparativa separability
+== comparativa separability
+  Moons: no (0/1 pares), SVM lineal entren. = 0.867
+  Iris: no (2/3 pares), SVM lineal entren. = 0.973
+  Wine: sí (3/3 pares), SVM lineal entren. = 1.000
+   (6.0 s)
+[2026-10-11 09:28:17] <<< FIN PASO 2/8: src.comparativa separability | 0.2 min | OK
+[2026-10-11 09:28:17] [2/8] src.comparativa separability terminó (0 min)
+
+[2026-10-11 09:28:17] >>> PASO 3/8: src.comparativa cv_schemes
+== comparativa cv_schemes
+  esquemas de validación: Iris | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Iris | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Iris | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Iris | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Iris | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Iris | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Iris | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Iris | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Iris | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Iris | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Iris | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Iris | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Iris | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: Wine | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Wine | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Wine | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Wine | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Wine | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Iris | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Iris | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Iris | Random Forest | 10-fold estratificado listo
+  esquemas de validación: Wine | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Wine | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Wine | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Wine | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Wine | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Wine | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Wine | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Wine | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: Wine | Random Forest | 10-fold estratificado listo
+  esquemas de validación: Wine | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Wine | Random Forest | 10-fold sin estratificar listo
+   (64.3 s)
+[2026-10-11 09:29:28] <<< FIN PASO 3/8: src.comparativa cv_schemes | 1.2 min | OK
+[2026-10-11 09:29:28] [3/8] src.comparativa cv_schemes terminó (1 min)
+
+[2026-10-11 09:29:28] >>> PASO 4/8: src.comparativa timing
+== comparativa timing
+  Equipo: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD | núcleos: 8 | RAM: 31.6 GB | entorno: abp-arboles
+  tiempos | Iris | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | CART (Gini + poda) | rep 0: entrenamiento 0.18s, predicción 0.00s
+  tiempos | Iris | C5.0 | rep 0: entrenamiento 3.31s, predicción 4.24s
+  tiempos | Iris | CHAID | rep 0: entrenamiento 0.04s, predicción 0.00s
+  tiempos | Iris | Random Forest | rep 0: entrenamiento 1.47s, predicción 0.13s
+  tiempos | Iris | Gradient Boosting | rep 0: entrenamiento 0.86s, predicción 0.03s
+  tiempos | Iris | KNN (k=5) | rep 0: entrenamiento 0.03s, predicción 0.02s
+  tiempos | Iris | Mínima Distancia | rep 0: entrenamiento 0.02s, predicción 0.01s
+  tiempos | Iris | CV-KNN | rep 0: entrenamiento 0.83s, predicción 0.02s
+  tiempos | Iris | Direct-CS-KNN | rep 0: entrenamiento 0.03s, predicción 0.02s
+  tiempos | Iris | Distances-CS-KNN | rep 0: entrenamiento 0.04s, predicción 0.03s
+  tiempos | Iris | CM-KNN | rep 0: entrenamiento 0.03s, predicción 0.68s
+  tiempos | Iris | One-Step KNN | rep 0: entrenamiento 3.46s, predicción 0.00s
+  tiempos | Wine | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Wine | CART (Gini + poda) | rep 0: entrenamiento 1.10s, predicción 0.00s
+  tiempos | Wine | C5.0 | rep 0: entrenamiento 2.44s, predicción 2.55s
+  tiempos | Wine | CHAID | rep 0: entrenamiento 0.18s, predicción 0.00s
+  tiempos | Wine | Random Forest | rep 0: entrenamiento 0.67s, predicción 0.04s
+  tiempos | Wine | Gradient Boosting | rep 0: entrenamiento 0.70s, predicción 0.00s
+  tiempos | Wine | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | CV-KNN | rep 0: entrenamiento 0.06s, predicción 0.00s
+  tiempos | Wine | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | CM-KNN | rep 0: entrenamiento 0.00s, predicción 0.04s
+  tiempos | Wine | One-Step KNN | rep 0: entrenamiento 0.58s, predicción 0.00s
+  tiempos | Moons | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Moons | CART (Gini + poda) | rep 0: entrenamiento 0.93s, predicción 0.00s
+  tiempos | Moons | C5.0 | rep 0: entrenamiento 2.54s, predicción 2.57s
+  tiempos | Moons | CHAID | rep 0: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Moons | Random Forest | rep 0: entrenamiento 0.71s, predicción 0.04s
+  tiempos | Moons | Gradient Boosting | rep 0: entrenamiento 0.30s, predicción 0.00s
+  tiempos | Moons | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | CV-KNN | rep 0: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Moons | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Distances-CS-KNN | rep 0: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Moons | CM-KNN | rep 0: entrenamiento 0.00s, predicción 0.29s
+  tiempos | Moons | One-Step KNN | rep 0: entrenamiento 0.69s, predicción 0.00s
+   (47.6 s)
+[2026-10-11 09:30:21] <<< FIN PASO 4/8: src.comparativa timing | 0.9 min | OK
+[2026-10-11 09:30:21] [4/8] src.comparativa timing terminó (1 min)
+
+[2026-10-11 09:30:21] >>> PASO 5/8: src.comparativa benchmark_full
+== comparativa benchmark_full
+  procesos en paralelo: 4
+  pliegues por calcular: 9
+  Iris | pliegue 2: CART (Gini + poda) 0.941, Random Forest 0.941, Gradient Boosting 0.941
+  Wine | pliegue 0: CART (Gini + poda) 0.918, Random Forest 0.986, Gradient Boosting 0.925
+  Iris | pliegue 0: CART (Gini + poda) 1.000, Random Forest 1.000, Gradient Boosting 1.000
+  Iris | pliegue 1: CART (Gini + poda) 0.918, Random Forest 0.939, Gradient Boosting 0.958
+  Wine | pliegue 1: CART (Gini + poda) 0.892, Random Forest 1.000, Gradient Boosting 0.986
+  Moons | pliegue 1: CART (Gini + poda) 0.925, Random Forest 0.952, Gradient Boosting 0.958
+  Wine | pliegue 2: CART (Gini + poda) 0.892, Random Forest 0.969, Gradient Boosting 0.913
+  Moons | pliegue 0: CART (Gini + poda) 0.964, Random Forest 0.979, Gradient Boosting 0.976
+  Moons | pliegue 2: CART (Gini + poda) 0.961, Random Forest 0.970, Gradient Boosting 0.964
+   (23.2 s)
+[2026-10-11 09:30:51] <<< FIN PASO 5/8: src.comparativa benchmark_full | 0.5 min | OK
+[2026-10-11 09:30:51] [5/8] src.comparativa benchmark_full terminó (0 min)
+
+[2026-10-11 09:30:51] >>> PASO 6/8: src.comparativa significance
+== comparativa significance
+  A: conjuntos con los 13 modelos: N=3 k=13 Friedman p=1.49e-02, CD=10.53, mejor=KNN (k=5)
+  B: los 14 conjuntos, modelos completos: N=3 k=13 Friedman p=1.49e-02, CD=10.53, mejor=KNN (k=5)
+   (0.1 s)
+[2026-10-11 09:30:58] <<< FIN PASO 6/8: src.comparativa significance | 0.1 min | OK
+[2026-10-11 09:30:58] [6/8] src.comparativa significance terminó (0 min)
+
+[2026-10-11 09:30:58] >>> PASO 7/8: src.comparativa summary
+== comparativa summary
+  resúmenes guardados en results_prueba
+   (0.1 s)
+[2026-10-11 09:31:04] <<< FIN PASO 7/8: src.comparativa summary | 0.1 min | OK
+[2026-10-11 09:31:04] [7/8] src.comparativa summary terminó (0 min)
+
+[2026-10-11 09:31:04] >>> PASO 8/8: src.visualization_comp
+  figuras en results_prueba\figuras
+[2026-10-11 09:31:24] <<< FIN PASO 8/8: src.visualization_comp | 0.3 min | OK
+[2026-10-11 09:31:24] [8/8] src.visualization_comp terminó (0 min)
+[2026-10-11 09:31:24] Terminaron todos los experimentos (PRUEBA RÁPIDA, 0.1 h).
+
+Prueba rápida correcta. Resultados en results_prueba/ (carpeta desechable).

@@ -1,0 +1,4 @@
+dataset,n,p,clases,pares,pares_separables,pares_no_separables,pares_indeterminados,linealmente_separable,exactitud_lineal_entrenamiento,t_lp_s
+Iris,150,4,3,3,2,1,0,no,0.9733333333333334,0.022804799998993985
+Wine,178,13,3,3,3,0,0,sí,1.0,0.03245959999912884
+Moons,1000,2,2,1,0,1,0,no,0.867,0.02534340000420343

@@ -1,0 +1,26 @@
+analisis,model,rango_promedio,ba_media
+A: conjuntos con los 13 modelos,Random Forest,3.076923076923077,0.9235606566070088
+A: conjuntos con los 13 modelos,Direct-CS-KNN,4.615384615384615,0.9059843059237906
+A: conjuntos con los 13 modelos,CV-KNN,4.923076923076923,0.9015533227086715
+A: conjuntos con los 13 modelos,Distances-CS-KNN,5.3076923076923075,0.900551031926531
+A: conjuntos con los 13 modelos,KNN (k=5),5.461538461538462,0.8984518166091253
+A: conjuntos con los 13 modelos,Gradient Boosting,5.5,0.9112583829016861
+A: conjuntos con los 13 modelos,CM-KNN,6.846153846153846,0.8989501785292996
+A: conjuntos con los 13 modelos,Árbol de Decisión (entropía),7.8076923076923075,0.8984640869647236
+A: conjuntos con los 13 modelos,C5.0,8.192307692307692,0.8565403189307705
+A: conjuntos con los 13 modelos,CART (Gini + poda),8.73076923076923,0.8881996061086643
+A: conjuntos con los 13 modelos,One-Step KNN,9.192307692307692,0.8207102486443112
+A: conjuntos con los 13 modelos,Mínima Distancia,10.192307692307692,0.743696829311853
+A: conjuntos con los 13 modelos,CHAID,11.153846153846153,0.8149546444936153
+"B: los 14 conjuntos, modelos completos",Random Forest,2.9642857142857144,0.9214746168500556
+"B: los 14 conjuntos, modelos completos",Direct-CS-KNN,4.107142857142857,0.9068599020351181
+"B: los 14 conjuntos, modelos completos",CV-KNN,4.5,0.9006026975844674
+"B: los 14 conjuntos, modelos completos",Distances-CS-KNN,4.678571428571429,0.9017701457748809
+"B: los 14 conjuntos, modelos completos",KNN (k=5),5.107142857142857,0.8977205658830332
+"B: los 14 conjuntos, modelos completos",Gradient Boosting,5.607142857142857,0.8969752518884275
+"B: los 14 conjuntos, modelos completos",Árbol de Decisión (entropía),7.25,0.8975021971470308
+"B: los 14 conjuntos, modelos completos",C5.0,7.892857142857143,0.8514657606727419
+"B: los 14 conjuntos, modelos completos",CART (Gini + poda),8.035714285714286,0.887686230786196
+"B: los 14 conjuntos, modelos completos",One-Step KNN,8.5,0.8192025270496963
+"B: los 14 conjuntos, modelos completos",Mínima Distancia,9.142857142857142,0.7537956211580887
+"B: los 14 conjuntos, modelos completos",CHAID,10.214285714285714,0.8181532224109748

@@ -1,0 +1,1288 @@
+
+==============================================================================
+[2026-10-11 10:02:16] INICIO: parte 1 (sin Colab)  |  comando: python correr.py --parte 1
+  equipo: DESKTOP-HQ7OLIU | Windows-10-10.0.19045-SP0 | Python 3.11.17 | entorno: abp-arboles | hilos lógicos: 8 | procesos en paralelo: 6
+  pasos: benchmark_new -> separability -> cv_schemes -> timing
+==============================================================================
+[2026-10-11 10:02:16] Inicio de los experimentos (parte 1 (sin Colab)): 4 pasos
+
+[2026-10-11 10:02:16] >>> PASO 1/4: src.comparativa benchmark_new
+== comparativa benchmark_new
+  procesos en paralelo: 6
+  pliegues por calcular: 135
+  Wine | pliegue 3: Árbol de Decisión (entropía) 0.952, C5.0 1.000, CHAID 0.849, KNN (k=5) 0.905, Mínima Distancia 0.952, CV-KNN 0.952, Direct-CS-KNN 0.905, Distances-CS-KNN 0.905, CM-KNN 1.000, One-Step KNN 1.000
+  Wine | pliegue 1: Árbol de Decisión (entropía) 1.000, C5.0 0.886, CHAID 0.952, KNN (k=5) 0.952, Mínima Distancia 0.952, CV-KNN 0.905, Direct-CS-KNN 0.952, Distances-CS-KNN 0.905, CM-KNN 0.952, One-Step KNN 0.897
+  Wine | pliegue 2: Árbol de Decisión (entropía) 0.838, C5.0 0.886, CHAID 0.886, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Wine | pliegue 0: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.897, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 0.952, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Wine | pliegue 5: Árbol de Decisión (entropía) 0.952, C5.0 0.886, CHAID 0.857, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.933, One-Step KNN 1.000
+  Wine | pliegue 4: Árbol de Decisión (entropía) 0.849, C5.0 0.897, CHAID 0.889, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.933, One-Step KNN 0.878
+  Wine | pliegue 6: Árbol de Decisión (entropía) 0.952, C5.0 0.933, CHAID 0.897, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Wine | pliegue 7: Árbol de Decisión (entropía) 0.738, C5.0 0.841, CHAID 0.783, KNN (k=5) 0.905, Mínima Distancia 0.905, CV-KNN 0.952, Direct-CS-KNN 0.905, Distances-CS-KNN 0.905, CM-KNN 0.905, One-Step KNN 0.952
+  Wine | pliegue 8: Árbol de Decisión (entropía) 0.917, C5.0 0.917, CHAID 0.849, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 0.952, CM-KNN 1.000, One-Step KNN 0.952
+  Wine | pliegue 9: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.742, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Forest Fires | pliegue 1: Árbol de Decisión (entropía) 0.576, C5.0 0.590, CHAID 0.563, KNN (k=5) 0.616, Mínima Distancia 0.612, CV-KNN 0.612, Direct-CS-KNN 0.616, Distances-CS-KNN 0.636, CM-KNN 0.656, One-Step KNN 0.561
+  Forest Fires | pliegue 0: Árbol de Decisión (entropía) 0.770, C5.0 0.621, CHAID 0.564, KNN (k=5) 0.521, Mínima Distancia 0.609, CV-KNN 0.667, Direct-CS-KNN 0.521, Distances-CS-KNN 0.521, CM-KNN 0.635, One-Step KNN 0.612
+  Forest Fires | pliegue 3: Árbol de Decisión (entropía) 0.499, C5.0 0.624, CHAID 0.459, KNN (k=5) 0.572, Mínima Distancia 0.644, CV-KNN 0.593, Direct-CS-KNN 0.572, Distances-CS-KNN 0.632, CM-KNN 0.575, One-Step KNN 0.521
+  Forest Fires | pliegue 5: Árbol de Decisión (entropía) 0.581, C5.0 0.524, CHAID 0.506, KNN (k=5) 0.487, Mínima Distancia 0.512, CV-KNN 0.502, Direct-CS-KNN 0.487, Distances-CS-KNN 0.487, CM-KNN 0.542, One-Step KNN 0.542
+  Forest Fires | pliegue 2: Árbol de Decisión (entropía) 0.692, C5.0 0.515, CHAID 0.447, KNN (k=5) 0.495, Mínima Distancia 0.416, CV-KNN 0.456, Direct-CS-KNN 0.495, Distances-CS-KNN 0.495, CM-KNN 0.493, One-Step KNN 0.556
+  Forest Fires | pliegue 4: Árbol de Decisión (entropía) 0.521, C5.0 0.507, CHAID 0.453, KNN (k=5) 0.519, Mínima Distancia 0.459, CV-KNN 0.536, Direct-CS-KNN 0.519, Distances-CS-KNN 0.519, CM-KNN 0.481, One-Step KNN 0.479
+  Forest Fires | pliegue 6: Árbol de Decisión (entropía) 0.569, C5.0 0.567, CHAID 0.523, KNN (k=5) 0.532, Mínima Distancia 0.592, CV-KNN 0.552, Direct-CS-KNN 0.532, Distances-CS-KNN 0.532, CM-KNN 0.570, One-Step KNN 0.476
+  Forest Fires | pliegue 7: Árbol de Decisión (entropía) 0.609, C5.0 0.516, CHAID 0.516, KNN (k=5) 0.484, Mínima Distancia 0.562, CV-KNN 0.444, Direct-CS-KNN 0.484, Distances-CS-KNN 0.505, CM-KNN 0.586, One-Step KNN 0.535
+  Forest Fires | pliegue 9: Árbol de Decisión (entropía) 0.435, C5.0 0.470, CHAID 0.553, KNN (k=5) 0.488, Mínima Distancia 0.544, CV-KNN 0.375, Direct-CS-KNN 0.488, Distances-CS-KNN 0.512, CM-KNN 0.491, One-Step KNN 0.479
+  Forest Fires | pliegue 8: Árbol de Decisión (entropía) 0.424, C5.0 0.567, CHAID 0.509, KNN (k=5) 0.347, Mínima Distancia 0.551, CV-KNN 0.426, Direct-CS-KNN 0.347, Distances-CS-KNN 0.329, CM-KNN 0.431, One-Step KNN 0.528
+  Credit Card | pliegue 0: Árbol de Decisión (entropía) 0.877, C5.0 0.775, CHAID 0.837, KNN (k=5) 0.888, Mínima Distancia 0.867, CV-KNN 0.888, Direct-CS-KNN 0.918, Distances-CS-KNN 0.918, One-Step KNN 0.745
+  Credit Card | pliegue 1: Árbol de Decisión (entropía) 0.888, C5.0 0.796, CHAID 0.847, KNN (k=5) 0.867, Mínima Distancia 0.847, CV-KNN 0.888, Direct-CS-KNN 0.897, Distances-CS-KNN 0.898, One-Step KNN 0.826
+  Credit Card | pliegue 2: Árbol de Decisión (entropía) 0.898, C5.0 0.816, CHAID 0.877, KNN (k=5) 0.857, Mínima Distancia 0.867, CV-KNN 0.867, Direct-CS-KNN 0.928, Distances-CS-KNN 0.918, One-Step KNN 0.510
+  Credit Card | pliegue 3: Árbol de Decisión (entropía) 0.898, C5.0 0.837, CHAID 0.837, KNN (k=5) 0.908, Mínima Distancia 0.908, CV-KNN 0.908, Direct-CS-KNN 0.908, Distances-CS-KNN 0.918, One-Step KNN 0.877
+  Credit Card | pliegue 4: Árbol de Decisión (entropía) 0.898, C5.0 0.786, CHAID 0.867, KNN (k=5) 0.888, Mínima Distancia 0.888, CV-KNN 0.888, Direct-CS-KNN 0.918, Distances-CS-KNN 0.918, One-Step KNN 0.754
+  Credit Card | pliegue 5: Árbol de Decisión (entropía) 0.860, C5.0 0.780, CHAID 0.830, KNN (k=5) 0.890, Mínima Distancia 0.880, CV-KNN 0.870, Direct-CS-KNN 0.900, Distances-CS-KNN 0.900, One-Step KNN 0.770
+  Credit Card | pliegue 6: Árbol de Decisión (entropía) 0.880, C5.0 0.800, CHAID 0.850, KNN (k=5) 0.860, Mínima Distancia 0.880, CV-KNN 0.860, Direct-CS-KNN 0.899, Distances-CS-KNN 0.910, One-Step KNN 0.800
+  Credit Card | pliegue 7: Árbol de Decisión (entropía) 0.918, C5.0 0.755, CHAID 0.898, KNN (k=5) 0.939, Mínima Distancia 0.918, CV-KNN 0.939, Direct-CS-KNN 0.959, Distances-CS-KNN 0.959, One-Step KNN 0.939
+  Credit Card | pliegue 9: Árbol de Decisión (entropía) 0.898, C5.0 0.745, CHAID 0.898, KNN (k=5) 0.908, Mínima Distancia 0.908, CV-KNN 0.918, Direct-CS-KNN 0.928, Distances-CS-KNN 0.918, One-Step KNN 0.918
+  Credit Card | pliegue 8: Árbol de Decisión (entropía) 0.837, C5.0 0.765, CHAID 0.857, KNN (k=5) 0.878, Mínima Distancia 0.888, CV-KNN 0.857, Direct-CS-KNN 0.928, Distances-CS-KNN 0.918, One-Step KNN 0.857
+  HAR | pliegue 0: Árbol de Decisión (entropía) 0.754, C5.0 0.783, CHAID 0.753, KNN (k=5) 0.862, Mínima Distancia 0.785, CV-KNN 0.846, Direct-CS-KNN 0.867, Distances-CS-KNN 0.865, CM-KNN 0.831, One-Step KNN 0.750
+  HAR | pliegue 1: Árbol de Decisión (entropía) 0.847, C5.0 0.840, CHAID 0.736, KNN (k=5) 0.870, Mínima Distancia 0.756, CV-KNN 0.864, Direct-CS-KNN 0.873, Distances-CS-KNN 0.873, CM-KNN 0.861, One-Step KNN 0.806
+  Concrete | pliegue 0: Árbol de Decisión (entropía) 0.903, C5.0 0.865, CHAID 0.826, KNN (k=5) 0.826, Mínima Distancia 0.815, CV-KNN 0.884, Direct-CS-KNN 0.826, Distances-CS-KNN 0.826, CM-KNN 0.844, One-Step KNN 0.815
+  Concrete | pliegue 1: Árbol de Decisión (entropía) 0.855, C5.0 0.816, CHAID 0.806, KNN (k=5) 0.815, Mínima Distancia 0.825, CV-KNN 0.835, Direct-CS-KNN 0.815, Distances-CS-KNN 0.815, CM-KNN 0.854, One-Step KNN 0.767
+  Concrete | pliegue 2: Árbol de Decisión (entropía) 0.883, C5.0 0.932, CHAID 0.864, KNN (k=5) 0.777, Mínima Distancia 0.737, CV-KNN 0.854, Direct-CS-KNN 0.777, Distances-CS-KNN 0.777, CM-KNN 0.864, One-Step KNN 0.766
+  Concrete | pliegue 3: Árbol de Decisión (entropía) 0.854, C5.0 0.825, CHAID 0.796, KNN (k=5) 0.815, Mínima Distancia 0.815, CV-KNN 0.883, Direct-CS-KNN 0.815, Distances-CS-KNN 0.825, CM-KNN 0.845, One-Step KNN 0.815
+  Concrete | pliegue 4: Árbol de Decisión (entropía) 0.864, C5.0 0.864, CHAID 0.805, KNN (k=5) 0.845, Mínima Distancia 0.785, CV-KNN 0.855, Direct-CS-KNN 0.845, Distances-CS-KNN 0.845, CM-KNN 0.873, One-Step KNN 0.766
+  Concrete | pliegue 5: Árbol de Decisión (entropía) 0.883, C5.0 0.844, CHAID 0.814, KNN (k=5) 0.854, Mínima Distancia 0.726, CV-KNN 0.786, Direct-CS-KNN 0.854, Distances-CS-KNN 0.844, CM-KNN 0.766, One-Step KNN 0.717
+  Concrete | pliegue 6: Árbol de Decisión (entropía) 0.854, C5.0 0.893, CHAID 0.854, KNN (k=5) 0.806, Mínima Distancia 0.815, CV-KNN 0.806, Direct-CS-KNN 0.806, Distances-CS-KNN 0.816, CM-KNN 0.815, One-Step KNN 0.796
+  Concrete | pliegue 7: Árbol de Decisión (entropía) 0.901, C5.0 0.913, CHAID 0.865, KNN (k=5) 0.787, Mínima Distancia 0.773, CV-KNN 0.853, Direct-CS-KNN 0.787, Distances-CS-KNN 0.787, CM-KNN 0.855, One-Step KNN 0.743
+  Glass | pliegue 0: Árbol de Decisión (entropía) 0.536, C5.0 0.655, CHAID 0.657, KNN (k=5) 0.726, Mínima Distancia 0.631, CV-KNN 0.768, Direct-CS-KNN 0.848, Distances-CS-KNN 0.807, CM-KNN 0.557, One-Step KNN 0.577
+  Concrete | pliegue 8: Árbol de Decisión (entropía) 0.932, C5.0 0.913, CHAID 0.931, KNN (k=5) 0.833, Mínima Distancia 0.822, CV-KNN 0.892, Direct-CS-KNN 0.833, Distances-CS-KNN 0.833, CM-KNN 0.882, One-Step KNN 0.842
+  Glass | pliegue 1: Árbol de Decisión (entropía) 0.757, C5.0 0.528, CHAID 0.390, KNN (k=5) 0.736, Mínima Distancia 0.498, CV-KNN 0.823, Direct-CS-KNN 0.755, Distances-CS-KNN 0.740, CM-KNN 0.799, One-Step KNN 0.608
+  Glass | pliegue 2: Árbol de Decisión (entropía) 0.879, C5.0 0.668, CHAID 0.355, KNN (k=5) 0.650, Mínima Distancia 0.436, CV-KNN 0.715, Direct-CS-KNN 0.686, Distances-CS-KNN 0.733, CM-KNN 0.748, One-Step KNN 0.668
+  Glass | pliegue 3: Árbol de Decisión (entropía) 0.598, C5.0 0.473, CHAID 0.455, KNN (k=5) 0.598, Mínima Distancia 0.423, CV-KNN 0.512, Direct-CS-KNN 0.762, Distances-CS-KNN 0.536, CM-KNN 0.661, One-Step KNN 0.577
+  Glass | pliegue 4: Árbol de Decisión (entropía) 0.705, C5.0 0.598, CHAID 0.390, KNN (k=5) 0.435, Mínima Distancia 0.551, CV-KNN 0.396, Direct-CS-KNN 0.765, Distances-CS-KNN 0.435, CM-KNN 0.500, One-Step KNN 0.625
+  Glass | pliegue 5: Árbol de Decisión (entropía) 0.668, C5.0 0.921, CHAID 0.418, KNN (k=5) 0.650, Mínima Distancia 0.564, CV-KNN 0.671, Direct-CS-KNN 0.696, Distances-CS-KNN 0.625, CM-KNN 0.721, One-Step KNN 0.700
+  Concrete | pliegue 9: Árbol de Decisión (entropía) 0.883, C5.0 0.913, CHAID 0.903, KNN (k=5) 0.863, Mínima Distancia 0.823, CV-KNN 0.893, Direct-CS-KNN 0.863, Distances-CS-KNN 0.863, CM-KNN 0.883, One-Step KNN 0.823
+  Glass | pliegue 6: Árbol de Decisión (entropía) 0.655, C5.0 0.571, CHAID 0.429, KNN (k=5) 0.429, Mínima Distancia 0.560, CV-KNN 0.488, Direct-CS-KNN 0.560, Distances-CS-KNN 0.405, CM-KNN 0.702, One-Step KNN 0.595
+  Glass | pliegue 7: Árbol de Decisión (entropía) 0.627, C5.0 0.464, CHAID 0.294, KNN (k=5) 0.492, Mínima Distancia 0.504, CV-KNN 0.623, Direct-CS-KNN 0.528, Distances-CS-KNN 0.742, CM-KNN 0.575, One-Step KNN 0.468
+  Glass | pliegue 8: Árbol de Decisión (entropía) 0.813, C5.0 0.845, CHAID 0.373, KNN (k=5) 0.714, Mínima Distancia 0.476, CV-KNN 0.845, Direct-CS-KNN 0.825, Distances-CS-KNN 0.798, CM-KNN 0.706, One-Step KNN 0.714
+  Glass | pliegue 9: Árbol de Decisión (entropía) 0.599, C5.0 0.500, CHAID 0.385, KNN (k=5) 0.659, Mínima Distancia 0.560, CV-KNN 0.635, Direct-CS-KNN 0.623, Distances-CS-KNN 0.611, CM-KNN 0.667, One-Step KNN 0.667
+  BCW (Original) | pliegue 1: Árbol de Decisión (entropía) 0.927, C5.0 0.927, CHAID 0.958, KNN (k=5) 0.979, Mínima Distancia 0.979, CV-KNN 0.979, Direct-CS-KNN 0.968, Distances-CS-KNN 0.968, CM-KNN 0.979, One-Step KNN 0.978
+  BCW (Original) | pliegue 0: Árbol de Decisión (entropía) 0.957, C5.0 0.957, CHAID 0.927, KNN (k=5) 0.968, Mínima Distancia 0.927, CV-KNN 0.916, Direct-CS-KNN 0.957, Distances-CS-KNN 0.968, CM-KNN 0.937, One-Step KNN 0.937
+  BCW (Original) | pliegue 2: Árbol de Decisión (entropía) 0.937, C5.0 0.916, CHAID 0.937, KNN (k=5) 0.947, Mínima Distancia 0.937, CV-KNN 0.937, Direct-CS-KNN 0.937, Distances-CS-KNN 0.947, CM-KNN 0.906, One-Step KNN 0.947
+  BCW (Original) | pliegue 4: Árbol de Decisión (entropía) 0.927, C5.0 0.937, CHAID 0.937, KNN (k=5) 0.978, Mínima Distancia 0.937, CV-KNN 0.978, Direct-CS-KNN 0.978, Distances-CS-KNN 0.978, CM-KNN 0.978, One-Step KNN 0.946
+  BCW (Original) | pliegue 3: Árbol de Decisión (entropía) 0.936, C5.0 0.936, CHAID 0.957, KNN (k=5) 0.978, Mínima Distancia 0.978, CV-KNN 0.978, Direct-CS-KNN 0.978, Distances-CS-KNN 0.978, CM-KNN 0.978, One-Step KNN 0.967
+  BCW (Original) | pliegue 5: Árbol de Decisión (entropía) 0.957, C5.0 0.978, CHAID 0.978, KNN (k=5) 0.989, Mínima Distancia 0.978, CV-KNN 0.989, Direct-CS-KNN 0.978, Distances-CS-KNN 0.989, CM-KNN 0.968, One-Step KNN 0.978
+  BCW (Original) | pliegue 6: Árbol de Decisión (entropía) 0.926, C5.0 0.978, CHAID 0.927, KNN (k=5) 0.968, Mínima Distancia 1.000, CV-KNN 0.968, Direct-CS-KNN 0.968, Distances-CS-KNN 0.968, CM-KNN 0.968, One-Step KNN 0.978
+  BCW (Original) | pliegue 7: Árbol de Decisión (entropía) 0.937, C5.0 0.916, CHAID 0.937, KNN (k=5) 0.947, Mínima Distancia 0.958, CV-KNN 0.958, Direct-CS-KNN 0.947, Distances-CS-KNN 0.947, CM-KNN 0.968, One-Step KNN 0.979
+  Iris | pliegue 0: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 1.000, KNN (k=5) 1.000, Mínima Distancia 0.867, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.667
+  BCW (Original) | pliegue 8: Árbol de Decisión (entropía) 0.929, C5.0 0.949, CHAID 0.989, KNN (k=5) 0.949, Mínima Distancia 0.929, CV-KNN 0.949, Direct-CS-KNN 0.989, Distances-CS-KNN 0.949, CM-KNN 0.949, One-Step KNN 0.949
+  Iris | pliegue 1: Árbol de Decisión (entropía) 0.933, C5.0 1.000, CHAID 1.000, KNN (k=5) 1.000, Mínima Distancia 0.933, CV-KNN 0.933, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.667
+  Iris | pliegue 2: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.933, KNN (k=5) 1.000, Mínima Distancia 0.933, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.667
+  Iris | pliegue 3: Árbol de Decisión (entropía) 0.933, C5.0 0.933, CHAID 0.867, KNN (k=5) 0.933, Mínima Distancia 0.867, CV-KNN 0.933, Direct-CS-KNN 0.933, Distances-CS-KNN 0.933, CM-KNN 0.933, One-Step KNN 0.667
+  Iris | pliegue 4: Árbol de Decisión (entropía) 0.867, C5.0 0.933, CHAID 0.867, KNN (k=5) 0.933, Mínima Distancia 0.800, CV-KNN 0.933, Direct-CS-KNN 0.933, Distances-CS-KNN 0.933, CM-KNN 0.800, One-Step KNN 0.733
+  Iris | pliegue 5: Árbol de Decisión (entropía) 0.867, C5.0 0.800, CHAID 0.800, KNN (k=5) 0.867, Mínima Distancia 0.867, CV-KNN 0.867, Direct-CS-KNN 0.867, Distances-CS-KNN 0.867, CM-KNN 0.933, One-Step KNN 0.733
+  Iris | pliegue 6: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.867, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.667
+  Iris | pliegue 7: Árbol de Decisión (entropía) 0.933, C5.0 0.933, CHAID 0.867, KNN (k=5) 1.000, Mínima Distancia 0.867, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.867
+  Iris | pliegue 8: Árbol de Decisión (entropía) 0.933, C5.0 0.933, CHAID 0.867, KNN (k=5) 1.000, Mínima Distancia 0.800, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.933, One-Step KNN 0.733
+  Iris | pliegue 9: Árbol de Decisión (entropía) 0.867, C5.0 0.800, CHAID 0.733, KNN (k=5) 0.867, Mínima Distancia 0.667, CV-KNN 0.800, Direct-CS-KNN 0.867, Distances-CS-KNN 0.867, CM-KNN 0.867, One-Step KNN 0.600
+  BCW (Original) | pliegue 9: Árbol de Decisión (entropía) 0.914, C5.0 0.913, CHAID 0.957, KNN (k=5) 0.957, Mínima Distancia 0.915, CV-KNN 0.947, Direct-CS-KNN 0.978, Distances-CS-KNN 0.957, CM-KNN 0.978, One-Step KNN 0.968
+  Ortogonal IF-THEN | pliegue 0: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 1.000, KNN (k=5) 1.000, Mínima Distancia 0.926, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 0.994, CM-KNN 0.977, One-Step KNN 0.977
+  Ortogonal IF-THEN | pliegue 1: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.977, KNN (k=5) 0.994, Mínima Distancia 0.894, CV-KNN 0.994, Direct-CS-KNN 0.981, Distances-CS-KNN 0.968, CM-KNN 0.971, One-Step KNN 0.994
+  Ortogonal IF-THEN | pliegue 2: Árbol de Decisión (entropía) 0.977, C5.0 0.977, CHAID 0.932, KNN (k=5) 0.994, Mínima Distancia 0.913, CV-KNN 0.994, Direct-CS-KNN 0.987, Distances-CS-KNN 0.987, CM-KNN 0.948, One-Step KNN 0.964
+  HAR | pliegue 2: Árbol de Decisión (entropía) 0.900, C5.0 0.915, CHAID 0.803, KNN (k=5) 0.861, Mínima Distancia 0.784, CV-KNN 0.827, Direct-CS-KNN 0.866, Distances-CS-KNN 0.861, CM-KNN 0.838, One-Step KNN 0.772
+  Ortogonal IF-THEN | pliegue 3: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.977, KNN (k=5) 1.000, Mínima Distancia 0.920, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.977, One-Step KNN 0.994
+  Ortogonal IF-THEN | pliegue 4: Árbol de Decisión (entropía) 0.952, C5.0 0.952, CHAID 0.922, KNN (k=5) 0.952, Mínima Distancia 0.900, CV-KNN 0.976, Direct-CS-KNN 0.970, Distances-CS-KNN 0.994, CM-KNN 0.946, One-Step KNN 0.970
+  Ortogonal IF-THEN | pliegue 5: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 1.000, KNN (k=5) 0.994, Mínima Distancia 0.888, CV-KNN 0.994, Direct-CS-KNN 0.981, Distances-CS-KNN 0.962, CM-KNN 0.957, One-Step KNN 0.987
+  HAR | pliegue 3: Árbol de Decisión (entropía) 0.863, C5.0 0.896, CHAID 0.804, KNN (k=5) 0.901, Mínima Distancia 0.819, CV-KNN 0.853, Direct-CS-KNN 0.903, Distances-CS-KNN 0.903, CM-KNN 0.890, One-Step KNN 0.844
+  Ortogonal IF-THEN | pliegue 6: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.976, KNN (k=5) 1.000, Mínima Distancia 0.892, CV-KNN 1.000, Direct-CS-KNN 0.994, Distances-CS-KNN 0.975, CM-KNN 1.000, One-Step KNN 0.987
+  Ortogonal IF-THEN | pliegue 8: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.976, KNN (k=5) 0.994, Mínima Distancia 0.864, CV-KNN 0.976, Direct-CS-KNN 0.994, Distances-CS-KNN 0.975, CM-KNN 0.946, One-Step KNN 0.981
+  Ortogonal IF-THEN | pliegue 7: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.976, KNN (k=5) 1.000, Mínima Distancia 0.949, CV-KNN 1.000, Direct-CS-KNN 0.994, Distances-CS-KNN 0.987, CM-KNN 0.952, One-Step KNN 0.987
+  Ortogonal IF-THEN | pliegue 9: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 1.000, KNN (k=5) 0.994, Mínima Distancia 0.869, CV-KNN 1.000, Direct-CS-KNN 0.994, Distances-CS-KNN 0.981, CM-KNN 0.976, One-Step KNN 0.994
+  Circles | pliegue 0: Árbol de Decisión (entropía) 0.990, C5.0 1.000, CHAID 0.990, KNN (k=5) 1.000, Mínima Distancia 0.440, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.980, One-Step KNN 0.430
+  HAR | pliegue 4: Árbol de Decisión (entropía) 0.889, C5.0 0.897, CHAID 0.833, KNN (k=5) 0.893, Mínima Distancia 0.775, CV-KNN 0.884, Direct-CS-KNN 0.894, Distances-CS-KNN 0.896, CM-KNN 0.852, One-Step KNN 0.833
+  Circles | pliegue 2: Árbol de Decisión (entropía) 0.980, C5.0 0.990, CHAID 0.990, KNN (k=5) 1.000, Mínima Distancia 0.420, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.460
+  Circles | pliegue 1: Árbol de Decisión (entropía) 1.000, C5.0 0.980, CHAID 0.990, KNN (k=5) 1.000, Mínima Distancia 0.420, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.980, One-Step KNN 0.440
+  Circles | pliegue 3: Árbol de Decisión (entropía) 0.990, C5.0 0.990, CHAID 1.000, KNN (k=5) 1.000, Mínima Distancia 0.480, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.980, One-Step KNN 0.490
+  Circles | pliegue 4: Árbol de Decisión (entropía) 0.990, C5.0 0.990, CHAID 1.000, KNN (k=5) 1.000, Mínima Distancia 0.470, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.960, One-Step KNN 0.510
+  Circles | pliegue 5: Árbol de Decisión (entropía) 0.990, C5.0 1.000, CHAID 0.970, KNN (k=5) 1.000, Mínima Distancia 0.460, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.980, One-Step KNN 0.410
+  Circles | pliegue 6: Árbol de Decisión (entropía) 0.970, C5.0 1.000, CHAID 0.990, KNN (k=5) 1.000, Mínima Distancia 0.480, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.980, One-Step KNN 0.530
+  Circles | pliegue 7: Árbol de Decisión (entropía) 0.990, C5.0 0.990, CHAID 0.990, KNN (k=5) 1.000, Mínima Distancia 0.440, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.980, One-Step KNN 0.480
+  Circles | pliegue 8: Árbol de Decisión (entropía) 1.000, C5.0 0.980, CHAID 0.970, KNN (k=5) 1.000, Mínima Distancia 0.490, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 0.970, One-Step KNN 0.440
+  Circles | pliegue 9: Árbol de Decisión (entropía) 1.000, C5.0 0.980, CHAID 1.000, KNN (k=5) 1.000, Mínima Distancia 0.410, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.440
+  Moons | pliegue 0: Árbol de Decisión (entropía) 0.960, C5.0 0.980, CHAID 0.950, KNN (k=5) 0.980, Mínima Distancia 0.900, CV-KNN 0.980, Direct-CS-KNN 0.980, Distances-CS-KNN 0.980, CM-KNN 0.950, One-Step KNN 0.920
+  Moons | pliegue 1: Árbol de Decisión (entropía) 0.990, C5.0 0.990, CHAID 0.960, KNN (k=5) 0.980, Mínima Distancia 0.870, CV-KNN 0.980, Direct-CS-KNN 0.980, Distances-CS-KNN 0.980, CM-KNN 0.970, One-Step KNN 0.910
+  Moons | pliegue 2: Árbol de Decisión (entropía) 0.980, C5.0 0.970, CHAID 0.920, KNN (k=5) 0.970, Mínima Distancia 0.870, CV-KNN 0.980, Direct-CS-KNN 0.970, Distances-CS-KNN 0.970, CM-KNN 0.980, One-Step KNN 0.860
+  Moons | pliegue 3: Árbol de Decisión (entropía) 0.970, C5.0 0.960, CHAID 0.940, KNN (k=5) 0.970, Mínima Distancia 0.850, CV-KNN 0.970, Direct-CS-KNN 0.970, Distances-CS-KNN 0.970, CM-KNN 0.940, One-Step KNN 0.890
+  Moons | pliegue 5: Árbol de Decisión (entropía) 0.950, C5.0 0.940, CHAID 0.910, KNN (k=5) 0.970, Mínima Distancia 0.780, CV-KNN 0.960, Direct-CS-KNN 0.970, Distances-CS-KNN 0.970, CM-KNN 0.910, One-Step KNN 0.760
+  Moons | pliegue 4: Árbol de Decisión (entropía) 0.950, C5.0 0.970, CHAID 0.940, KNN (k=5) 0.970, Mínima Distancia 0.890, CV-KNN 0.980, Direct-CS-KNN 0.970, Distances-CS-KNN 0.970, CM-KNN 0.960, One-Step KNN 0.860
+  Moons | pliegue 6: Árbol de Decisión (entropía) 0.980, C5.0 0.980, CHAID 0.980, KNN (k=5) 0.990, Mínima Distancia 0.820, CV-KNN 0.980, Direct-CS-KNN 0.990, Distances-CS-KNN 0.990, CM-KNN 0.950, One-Step KNN 0.870
+  Moons | pliegue 7: Árbol de Decisión (entropía) 0.910, C5.0 0.940, CHAID 0.950, KNN (k=5) 0.940, Mínima Distancia 0.820, CV-KNN 0.940, Direct-CS-KNN 0.940, Distances-CS-KNN 0.940, CM-KNN 0.940, One-Step KNN 0.840
+  Moons | pliegue 8: Árbol de Decisión (entropía) 0.970, C5.0 0.980, CHAID 0.950, KNN (k=5) 0.980, Mínima Distancia 0.910, CV-KNN 0.980, Direct-CS-KNN 0.980, Distances-CS-KNN 0.980, CM-KNN 0.970, One-Step KNN 0.880
+  Moons | pliegue 9: Árbol de Decisión (entropía) 0.940, C5.0 0.950, CHAID 0.960, KNN (k=5) 0.960, Mínima Distancia 0.840, CV-KNN 0.960, Direct-CS-KNN 0.960, Distances-CS-KNN 0.960, CM-KNN 0.910, One-Step KNN 0.850
+  Lineal rotado 45° | pliegue 0: Árbol de Decisión (entropía) 0.968, C5.0 0.968, CHAID 0.978, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 1: Árbol de Decisión (entropía) 0.989, C5.0 0.989, CHAID 0.989, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 2: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.978, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 3: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 1.000, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 4: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.978, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 5: Árbol de Decisión (entropía) 0.978, C5.0 0.978, CHAID 0.957, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 6: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.978, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 7: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.978, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 8: Árbol de Decisión (entropía) 0.989, C5.0 1.000, CHAID 0.989, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  Lineal rotado 45° | pliegue 9: Árbol de Decisión (entropía) 0.967, C5.0 0.967, CHAID 1.000, KNN (k=5) 1.000, Mínima Distancia 1.000, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 0: Árbol de Decisión (entropía) 1.000, C5.0 0.990, CHAID 0.970, KNN (k=5) 1.000, Mínima Distancia 0.500, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 1: Árbol de Decisión (entropía) 0.950, C5.0 0.960, CHAID 0.961, KNN (k=5) 1.000, Mínima Distancia 0.490, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 3: Árbol de Decisión (entropía) 0.990, C5.0 0.990, CHAID 0.970, KNN (k=5) 1.000, Mínima Distancia 0.448, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 2: Árbol de Decisión (entropía) 0.960, C5.0 0.960, CHAID 0.970, KNN (k=5) 1.000, Mínima Distancia 0.530, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 4: Árbol de Decisión (entropía) 0.980, C5.0 0.980, CHAID 0.929, KNN (k=5) 1.000, Mínima Distancia 0.519, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 5: Árbol de Decisión (entropía) 0.980, C5.0 0.980, CHAID 0.939, KNN (k=5) 1.000, Mínima Distancia 0.600, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 6: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.939, KNN (k=5) 1.000, Mínima Distancia 0.490, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.970
+  XOR rotado 45° | pliegue 7: Árbol de Decisión (entropía) 1.000, C5.0 1.000, CHAID 0.969, KNN (k=5) 1.000, Mínima Distancia 0.499, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 8: Árbol de Decisión (entropía) 0.980, C5.0 0.980, CHAID 0.960, KNN (k=5) 1.000, Mínima Distancia 0.541, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR rotado 45° | pliegue 9: Árbol de Decisión (entropía) 0.980, C5.0 0.980, CHAID 0.958, KNN (k=5) 1.000, Mínima Distancia 0.462, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR 0° | pliegue 0: Árbol de Decisión (entropía) 1.000, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.500, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR 0° | pliegue 1: Árbol de Decisión (entropía) 0.990, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.500, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR 0° | pliegue 2: Árbol de Decisión (entropía) 1.000, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.530, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR 0° | pliegue 4: Árbol de Decisión (entropía) 1.000, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.529, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.990
+  XOR 0° | pliegue 3: Árbol de Decisión (entropía) 1.000, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.448, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR 0° | pliegue 5: Árbol de Decisión (entropía) 1.000, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.600, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR 0° | pliegue 7: Árbol de Decisión (entropía) 1.000, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.499, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR 0° | pliegue 6: Árbol de Decisión (entropía) 0.980, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.490, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 0.970
+  XOR 0° | pliegue 8: Árbol de Decisión (entropía) 0.980, C5.0 0.489, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.541, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+  XOR 0° | pliegue 9: Árbol de Decisión (entropía) 1.000, C5.0 0.500, CHAID 0.500, KNN (k=5) 1.000, Mínima Distancia 0.462, CV-KNN 1.000, Direct-CS-KNN 1.000, Distances-CS-KNN 1.000, CM-KNN 1.000, One-Step KNN 1.000
+   (5875.2 s)
+[2026-10-11 11:40:18] <<< FIN PASO 1/4: src.comparativa benchmark_new | 98.0 min | OK
+[2026-10-11 11:40:18] [1/4] src.comparativa benchmark_new terminó (98 min)
+
+[2026-10-11 11:40:18] >>> PASO 2/4: src.comparativa separability
+== comparativa separability
+  Forest Fires: no (0/1 pares), SVM lineal entren. = 0.578
+  BCW (Original): no (0/1 pares), SVM lineal entren. = 0.969
+  Wine: sí (3/3 pares), SVM lineal entren. = 1.000
+  Concrete: no (0/1 pares), SVM lineal entren. = 0.839
+  Iris: no (2/3 pares), SVM lineal entren. = 0.973
+  Ortogonal IF-THEN: no (0/1 pares), SVM lineal entren. = 0.937
+  Moons: no (0/1 pares), SVM lineal entren. = 0.867
+  XOR rotado 45°: no (0/1 pares), SVM lineal entren. = 0.364
+  Circles: no (0/1 pares), SVM lineal entren. = 0.502
+  Glass: no (11/15 pares), SVM lineal entren. = 0.720
+  XOR 0°: no (0/1 pares), SVM lineal entren. = 0.364
+  Lineal rotado 45°: sí (1/1 pares), SVM lineal entren. = 1.000
+  Credit Card: no (0/1 pares), SVM lineal entren. = 0.999
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\svm\_base.py:1295: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+  HAR: sí (15/15 pares), SVM lineal entren. = 1.000
+   (270.9 s)
+[2026-10-11 11:44:55] <<< FIN PASO 2/4: src.comparativa separability | 4.6 min | OK
+[2026-10-11 11:44:55] [2/4] src.comparativa separability terminó (5 min)
+
+[2026-10-11 11:44:55] >>> PASO 3/4: src.comparativa cv_schemes
+== comparativa cv_schemes
+  esquemas de validación: Wine | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Wine | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Wine | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Wine | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Wine | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Wine | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Wine | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Wine | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Wine | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Wine | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Wine | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Wine | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: Forest Fires | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Forest Fires | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Forest Fires | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Forest Fires | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Wine | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Forest Fires | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Wine | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Forest Fires | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Forest Fires | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Forest Fires | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Forest Fires | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Forest Fires | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Forest Fires | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Forest Fires | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Forest Fires | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: Concrete | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Concrete | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Concrete | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Concrete | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Forest Fires | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Concrete | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Wine | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Wine | Random Forest | 10-fold estratificado listo
+  esquemas de validación: Concrete | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Concrete | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Concrete | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Concrete | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Concrete | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Concrete | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Concrete | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Concrete | Mínima Distancia | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | Árbol de Decisión (entropía) | Holdout 90/10 listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | Árbol de Decisión (entropía) | 10-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Glass | Árbol de Decisión (entropía) | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+  esquemas de validación: Forest Fires | Random Forest | 10-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Forest Fires | Random Forest | 10-fold sin estratificar listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+  esquemas de validación: Concrete | Random Forest | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+  esquemas de validación: Glass | KNN (k=5) | Holdout 90/10 listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | KNN (k=5) | 10-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | KNN (k=5) | 10-fold sin estratificar listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | KNN (k=5) | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | Mínima Distancia | Holdout 90/10 listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | Mínima Distancia | 10-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Glass | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: BCW (Original) | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: BCW (Original) | Árbol de Decisión (entropía) | 10-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: BCW (Original) | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: BCW (Original) | Árbol de Decisión (entropía) | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+  esquemas de validación: BCW (Original) | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Glass | Random Forest | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\model_selection\_split.py:812: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+  esquemas de validación: Concrete | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Concrete | Random Forest | 10-fold estratificado listo
+  esquemas de validación: BCW (Original) | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: BCW (Original) | KNN (k=5) | 10-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: BCW (Original) | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: BCW (Original) | KNN (k=5) | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: BCW (Original) | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: BCW (Original) | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: BCW (Original) | Mínima Distancia | 10-fold sin estratificar listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: BCW (Original) | Mínima Distancia | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Iris | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Iris | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Iris | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Glass | Random Forest | 10-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Iris | Árbol de Decisión (entropía) | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Glass | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Iris | Random Forest | Holdout 90/10 listo
+  esquemas de validación: BCW (Original) | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Iris | KNN (k=5) | Holdout 90/10 listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Iris | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Iris | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Iris | KNN (k=5) | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: Iris | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Iris | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Iris | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Iris | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: Ortogonal IF-THEN | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Ortogonal IF-THEN | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Ortogonal IF-THEN | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Ortogonal IF-THEN | Árbol de Decisión (entropía) | 5-fold estratificado listo
+C:\Users\olixe\anaconda3\envs\abp-arboles\Lib\site-packages\sklearn\metrics\_classification.py:2939: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  esquemas de validación: BCW (Original) | Random Forest | 10-fold estratificado listo
+  esquemas de validación: BCW (Original) | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Ortogonal IF-THEN | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Iris | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Ortogonal IF-THEN | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Ortogonal IF-THEN | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Ortogonal IF-THEN | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Ortogonal IF-THEN | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Ortogonal IF-THEN | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Ortogonal IF-THEN | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Ortogonal IF-THEN | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Ortogonal IF-THEN | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: Circles | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Circles | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Circles | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Circles | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Iris | Random Forest | 10-fold estratificado listo
+  esquemas de validación: Iris | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Circles | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Ortogonal IF-THEN | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Circles | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Circles | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Circles | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Circles | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Circles | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Circles | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Circles | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Circles | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: Moons | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Moons | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Moons | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Moons | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Moons | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Ortogonal IF-THEN | Random Forest | 10-fold estratificado listo
+  esquemas de validación: Ortogonal IF-THEN | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Circles | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Moons | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Moons | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Moons | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Moons | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Moons | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Moons | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Moons | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Moons | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: Lineal rotado 45° | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: Lineal rotado 45° | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Circles | Random Forest | 10-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Circles | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Moons | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: Lineal rotado 45° | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: Lineal rotado 45° | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: Lineal rotado 45° | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: Lineal rotado 45° | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: XOR rotado 45° | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: XOR rotado 45° | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | Random Forest | Holdout 90/10 listo
+  esquemas de validación: Lineal rotado 45° | Random Forest | 5-fold estratificado listo
+  esquemas de validación: Moons | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: Moons | Random Forest | 10-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: XOR rotado 45° | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: XOR rotado 45° | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: XOR rotado 45° | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: XOR rotado 45° | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: XOR 0° | Árbol de Decisión (entropía) | Holdout 90/10 listo
+  esquemas de validación: XOR 0° | Árbol de Decisión (entropía) | 10-fold estratificado listo
+  esquemas de validación: XOR 0° | Árbol de Decisión (entropía) | 10-fold sin estratificar listo
+  esquemas de validación: XOR 0° | Árbol de Decisión (entropía) | 5-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | Random Forest | 10-fold estratificado listo
+  esquemas de validación: Lineal rotado 45° | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: XOR 0° | Random Forest | Holdout 90/10 listo
+  esquemas de validación: XOR rotado 45° | Random Forest | 5-fold estratificado listo
+  esquemas de validación: XOR 0° | KNN (k=5) | Holdout 90/10 listo
+  esquemas de validación: XOR 0° | KNN (k=5) | 10-fold estratificado listo
+  esquemas de validación: XOR 0° | KNN (k=5) | 10-fold sin estratificar listo
+  esquemas de validación: XOR 0° | KNN (k=5) | 5-fold estratificado listo
+  esquemas de validación: XOR 0° | Mínima Distancia | Holdout 90/10 listo
+  esquemas de validación: XOR 0° | Mínima Distancia | 10-fold estratificado listo
+  esquemas de validación: XOR 0° | Mínima Distancia | 10-fold sin estratificar listo
+  esquemas de validación: XOR 0° | Mínima Distancia | 5-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | Random Forest | 10-fold estratificado listo
+  esquemas de validación: XOR rotado 45° | Random Forest | 10-fold sin estratificar listo
+  esquemas de validación: XOR 0° | Random Forest | 5-fold estratificado listo
+  esquemas de validación: XOR 0° | Random Forest | 10-fold estratificado listo
+  esquemas de validación: XOR 0° | Random Forest | 10-fold sin estratificar listo
+   (888.6 s)
+[2026-10-11 11:59:50] <<< FIN PASO 3/4: src.comparativa cv_schemes | 14.9 min | OK
+[2026-10-11 11:59:50] [3/4] src.comparativa cv_schemes terminó (15 min)
+
+[2026-10-11 11:59:50] >>> PASO 4/4: src.comparativa timing
+== comparativa timing
+  Equipo: AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD | núcleos: 8 | RAM: 31.6 GB | entorno: abp-arboles
+  tiempos | Wine | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | CART (Gini + poda) | rep 0: entrenamiento 0.17s, predicción 0.00s
+  tiempos | Wine | CART (Gini + poda) | rep 1: entrenamiento 0.17s, predicción 0.00s
+  tiempos | Wine | CART (Gini + poda) | rep 2: entrenamiento 0.17s, predicción 0.00s
+  tiempos | Wine | C5.0 | rep 0: entrenamiento 1.85s, predicción 1.84s
+  tiempos | Wine | C5.0 | rep 1: entrenamiento 1.83s, predicción 1.85s
+  tiempos | Wine | C5.0 | rep 2: entrenamiento 1.84s, predicción 1.85s
+  tiempos | Wine | CHAID | rep 0: entrenamiento 0.13s, predicción 0.00s
+  tiempos | Wine | CHAID | rep 1: entrenamiento 0.13s, predicción 0.00s
+  tiempos | Wine | CHAID | rep 2: entrenamiento 0.13s, predicción 0.00s
+  tiempos | Wine | Random Forest | rep 0: entrenamiento 0.43s, predicción 0.03s
+  tiempos | Wine | Random Forest | rep 1: entrenamiento 0.42s, predicción 0.03s
+  tiempos | Wine | Random Forest | rep 2: entrenamiento 0.42s, predicción 0.03s
+  tiempos | Wine | Gradient Boosting | rep 0: entrenamiento 0.47s, predicción 0.00s
+  tiempos | Wine | Gradient Boosting | rep 1: entrenamiento 0.47s, predicción 0.00s
+  tiempos | Wine | Gradient Boosting | rep 2: entrenamiento 0.47s, predicción 0.00s
+  tiempos | Wine | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | CV-KNN | rep 0: entrenamiento 0.05s, predicción 0.00s
+  tiempos | Wine | CV-KNN | rep 1: entrenamiento 0.05s, predicción 0.00s
+  tiempos | Wine | CV-KNN | rep 2: entrenamiento 0.05s, predicción 0.00s
+  tiempos | Wine | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Wine | CM-KNN | rep 0: entrenamiento 0.00s, predicción 0.07s
+  tiempos | Wine | CM-KNN | rep 1: entrenamiento 0.00s, predicción 0.07s
+  tiempos | Wine | CM-KNN | rep 2: entrenamiento 0.00s, predicción 0.06s
+  tiempos | Wine | One-Step KNN | rep 0: entrenamiento 1.30s, predicción 0.00s
+  tiempos | Wine | One-Step KNN | rep 1: entrenamiento 1.30s, predicción 0.00s
+  tiempos | Wine | One-Step KNN | rep 2: entrenamiento 1.29s, predicción 0.00s
+  tiempos | Forest Fires | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Forest Fires | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Forest Fires | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Forest Fires | CART (Gini + poda) | rep 0: entrenamiento 0.89s, predicción 0.00s
+  tiempos | Forest Fires | CART (Gini + poda) | rep 1: entrenamiento 0.89s, predicción 0.00s
+  tiempos | Forest Fires | CART (Gini + poda) | rep 2: entrenamiento 0.89s, predicción 0.00s
+  tiempos | Forest Fires | C5.0 | rep 0: entrenamiento 1.89s, predicción 1.86s
+  tiempos | Forest Fires | C5.0 | rep 1: entrenamiento 1.87s, predicción 1.88s
+  tiempos | Forest Fires | C5.0 | rep 2: entrenamiento 1.87s, predicción 1.85s
+  tiempos | Forest Fires | CHAID | rep 0: entrenamiento 0.13s, predicción 0.00s
+  tiempos | Forest Fires | CHAID | rep 1: entrenamiento 0.14s, predicción 0.00s
+  tiempos | Forest Fires | CHAID | rep 2: entrenamiento 0.14s, predicción 0.00s
+  tiempos | Forest Fires | Random Forest | rep 0: entrenamiento 0.49s, predicción 0.03s
+  tiempos | Forest Fires | Random Forest | rep 1: entrenamiento 0.49s, predicción 0.03s
+  tiempos | Forest Fires | Random Forest | rep 2: entrenamiento 0.49s, predicción 0.03s
+  tiempos | Forest Fires | Gradient Boosting | rep 0: entrenamiento 0.20s, predicción 0.00s
+  tiempos | Forest Fires | Gradient Boosting | rep 1: entrenamiento 0.20s, predicción 0.00s
+  tiempos | Forest Fires | Gradient Boosting | rep 2: entrenamiento 0.19s, predicción 0.00s
+  tiempos | Forest Fires | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | CV-KNN | rep 0: entrenamiento 0.05s, predicción 0.00s
+  tiempos | Forest Fires | CV-KNN | rep 1: entrenamiento 0.05s, predicción 0.00s
+  tiempos | Forest Fires | CV-KNN | rep 2: entrenamiento 0.05s, predicción 0.00s
+  tiempos | Forest Fires | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Forest Fires | CM-KNN | rep 0: entrenamiento 0.00s, predicción 2.51s
+  tiempos | Forest Fires | CM-KNN | rep 1: entrenamiento 0.00s, predicción 2.52s
+  tiempos | Forest Fires | CM-KNN | rep 2: entrenamiento 0.00s, predicción 2.51s
+  tiempos | Forest Fires | One-Step KNN | rep 0: entrenamiento 11.18s, predicción 0.00s
+  tiempos | Forest Fires | One-Step KNN | rep 1: entrenamiento 11.04s, predicción 0.00s
+  tiempos | Forest Fires | One-Step KNN | rep 2: entrenamiento 11.12s, predicción 0.00s
+  tiempos | Credit Card | Árbol de Decisión (entropía) | rep 0: entrenamiento 13.29s, predicción 0.00s
+  tiempos | Credit Card | CART (Gini + poda) | rep 0: entrenamiento 2107.59s, predicción 0.00s
+  tiempos | Credit Card | C5.0 | rep 0: entrenamiento 55.54s, predicción 7.19s
+  tiempos | Credit Card | CHAID | rep 0: entrenamiento 5.74s, predicción 0.03s
+  tiempos | Credit Card | Random Forest | rep 0: entrenamiento 595.84s, predicción 0.58s
+  tiempos | Credit Card | Gradient Boosting | rep 0: entrenamiento 458.07s, predicción 0.03s
+  tiempos | Credit Card | KNN (k=5) | rep 0: entrenamiento 0.19s, predicción 104.24s
+  tiempos | Credit Card | Mínima Distancia | rep 0: entrenamiento 0.19s, predicción 0.01s
+  tiempos | Credit Card | CV-KNN | rep 0: entrenamiento 11.42s, predicción 87.15s
+  tiempos | Credit Card | Direct-CS-KNN | rep 0: entrenamiento 0.16s, predicción 71.73s
+  tiempos | Credit Card | Distances-CS-KNN | rep 0: entrenamiento 0.17s, predicción 83.46s
+  tiempos | Credit Card | One-Step KNN | rep 0: entrenamiento 16.17s, predicción 0.28s
+  tiempos | HAR | Árbol de Decisión (entropía) | rep 0: entrenamiento 9.75s, predicción 0.00s
+  tiempos | HAR | CART (Gini + poda) | rep 0: entrenamiento 911.91s, predicción 0.00s
+  tiempos | HAR | C5.0 | rep 0: entrenamiento 47.32s, predicción 6.44s
+  tiempos | HAR | CHAID | rep 0: entrenamiento 191.66s, predicción 0.03s
+  tiempos | HAR | Random Forest | rep 0: entrenamiento 47.86s, predicción 0.08s
+  tiempos | HAR | Gradient Boosting | rep 0: entrenamiento 1110.39s, predicción 0.02s
+  tiempos | HAR | KNN (k=5) | rep 0: entrenamiento 0.10s, predicción 0.77s
+  tiempos | HAR | Mínima Distancia | rep 0: entrenamiento 0.13s, predicción 0.01s
+  tiempos | HAR | CV-KNN | rep 0: entrenamiento 4.77s, predicción 0.76s
+  tiempos | HAR | Direct-CS-KNN | rep 0: entrenamiento 0.10s, predicción 0.73s
+  tiempos | HAR | Distances-CS-KNN | rep 0: entrenamiento 0.12s, predicción 0.76s
+  tiempos | HAR | CM-KNN | rep 0: entrenamiento 0.21s, predicción 90.25s
+  tiempos | HAR | One-Step KNN | rep 0: entrenamiento 15.10s, predicción 0.06s
+  tiempos | Concrete | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Concrete | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Concrete | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Concrete | CART (Gini + poda) | rep 0: entrenamiento 1.25s, predicción 0.00s
+  tiempos | Concrete | CART (Gini + poda) | rep 1: entrenamiento 1.27s, predicción 0.00s
+  tiempos | Concrete | CART (Gini + poda) | rep 2: entrenamiento 1.27s, predicción 0.00s
+  tiempos | Concrete | C5.0 | rep 0: entrenamiento 2.42s, predicción 2.36s
+  tiempos | Concrete | C5.0 | rep 1: entrenamiento 2.42s, predicción 2.33s
+  tiempos | Concrete | C5.0 | rep 2: entrenamiento 2.38s, predicción 2.36s
+  tiempos | Concrete | CHAID | rep 0: entrenamiento 0.36s, predicción 0.00s
+  tiempos | Concrete | CHAID | rep 1: entrenamiento 0.36s, predicción 0.00s
+  tiempos | Concrete | CHAID | rep 2: entrenamiento 0.35s, predicción 0.00s
+  tiempos | Concrete | Random Forest | rep 0: entrenamiento 0.70s, predicción 0.04s
+  tiempos | Concrete | Random Forest | rep 1: entrenamiento 0.70s, predicción 0.04s
+  tiempos | Concrete | Random Forest | rep 2: entrenamiento 0.70s, predicción 0.04s
+  tiempos | Concrete | Gradient Boosting | rep 0: entrenamiento 0.31s, predicción 0.00s
+  tiempos | Concrete | Gradient Boosting | rep 1: entrenamiento 0.31s, predicción 0.00s
+  tiempos | Concrete | Gradient Boosting | rep 2: entrenamiento 0.31s, predicción 0.00s
+  tiempos | Concrete | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | CV-KNN | rep 0: entrenamiento 0.08s, predicción 0.00s
+  tiempos | Concrete | CV-KNN | rep 1: entrenamiento 0.08s, predicción 0.00s
+  tiempos | Concrete | CV-KNN | rep 2: entrenamiento 0.08s, predicción 0.00s
+  tiempos | Concrete | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Concrete | Distances-CS-KNN | rep 0: entrenamiento 0.01s, predicción 0.01s
+  tiempos | Concrete | Distances-CS-KNN | rep 1: entrenamiento 0.01s, predicción 0.01s
+  tiempos | Concrete | Distances-CS-KNN | rep 2: entrenamiento 0.01s, predicción 0.00s
+  tiempos | Concrete | CM-KNN | rep 0: entrenamiento 0.01s, predicción 7.46s
+  tiempos | Concrete | CM-KNN | rep 1: entrenamiento 0.01s, predicción 7.42s
+  tiempos | Concrete | CM-KNN | rep 2: entrenamiento 0.01s, predicción 6.87s
+  tiempos | Concrete | One-Step KNN | rep 0: entrenamiento 15.30s, predicción 0.00s
+  tiempos | Concrete | One-Step KNN | rep 1: entrenamiento 13.92s, predicción 0.00s
+  tiempos | Concrete | One-Step KNN | rep 2: entrenamiento 13.94s, predicción 0.00s
+  tiempos | Glass | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | CART (Gini + poda) | rep 0: entrenamiento 0.83s, predicción 0.00s
+  tiempos | Glass | CART (Gini + poda) | rep 1: entrenamiento 0.81s, predicción 0.00s
+  tiempos | Glass | CART (Gini + poda) | rep 2: entrenamiento 0.94s, predicción 0.00s
+  tiempos | Glass | C5.0 | rep 0: entrenamiento 2.38s, predicción 2.33s
+  tiempos | Glass | C5.0 | rep 1: entrenamiento 2.33s, predicción 2.38s
+  tiempos | Glass | C5.0 | rep 2: entrenamiento 2.37s, predicción 2.29s
+  tiempos | Glass | CHAID | rep 0: entrenamiento 0.16s, predicción 0.00s
+  tiempos | Glass | CHAID | rep 1: entrenamiento 0.16s, predicción 0.00s
+  tiempos | Glass | CHAID | rep 2: entrenamiento 0.16s, predicción 0.00s
+  tiempos | Glass | Random Forest | rep 0: entrenamiento 0.61s, predicción 0.04s
+  tiempos | Glass | Random Forest | rep 1: entrenamiento 0.60s, predicción 0.03s
+  tiempos | Glass | Random Forest | rep 2: entrenamiento 0.62s, predicción 0.04s
+  tiempos | Glass | Gradient Boosting | rep 0: entrenamiento 1.17s, predicción 0.00s
+  tiempos | Glass | Gradient Boosting | rep 1: entrenamiento 1.18s, predicción 0.00s
+  tiempos | Glass | Gradient Boosting | rep 2: entrenamiento 1.18s, predicción 0.00s
+  tiempos | Glass | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | CV-KNN | rep 0: entrenamiento 0.06s, predicción 0.00s
+  tiempos | Glass | CV-KNN | rep 1: entrenamiento 0.06s, predicción 0.00s
+  tiempos | Glass | CV-KNN | rep 2: entrenamiento 0.06s, predicción 0.00s
+  tiempos | Glass | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Glass | Distances-CS-KNN | rep 0: entrenamiento 0.01s, predicción 0.01s
+  tiempos | Glass | Distances-CS-KNN | rep 1: entrenamiento 0.01s, predicción 0.01s
+  tiempos | Glass | Distances-CS-KNN | rep 2: entrenamiento 0.01s, predicción 0.01s
+  tiempos | Glass | CM-KNN | rep 0: entrenamiento 0.00s, predicción 0.15s
+  tiempos | Glass | CM-KNN | rep 1: entrenamiento 0.00s, predicción 0.17s
+  tiempos | Glass | CM-KNN | rep 2: entrenamiento 0.00s, predicción 0.15s
+  tiempos | Glass | One-Step KNN | rep 0: entrenamiento 3.05s, predicción 0.00s
+  tiempos | Glass | One-Step KNN | rep 1: entrenamiento 3.00s, predicción 0.00s
+  tiempos | Glass | One-Step KNN | rep 2: entrenamiento 3.04s, predicción 0.00s
+  tiempos | BCW (Original) | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | CART (Gini + poda) | rep 0: entrenamiento 0.63s, predicción 0.00s
+  tiempos | BCW (Original) | CART (Gini + poda) | rep 1: entrenamiento 0.62s, predicción 0.00s
+  tiempos | BCW (Original) | CART (Gini + poda) | rep 2: entrenamiento 0.63s, predicción 0.00s
+  tiempos | BCW (Original) | C5.0 | rep 0: entrenamiento 2.39s, predicción 2.33s
+  tiempos | BCW (Original) | C5.0 | rep 1: entrenamiento 2.39s, predicción 2.31s
+  tiempos | BCW (Original) | C5.0 | rep 2: entrenamiento 2.39s, predicción 2.37s
+  tiempos | BCW (Original) | CHAID | rep 0: entrenamiento 0.08s, predicción 0.00s
+  tiempos | BCW (Original) | CHAID | rep 1: entrenamiento 0.08s, predicción 0.00s
+  tiempos | BCW (Original) | CHAID | rep 2: entrenamiento 0.08s, predicción 0.00s
+  tiempos | BCW (Original) | Random Forest | rep 0: entrenamiento 0.57s, predicción 0.04s
+  tiempos | BCW (Original) | Random Forest | rep 1: entrenamiento 0.58s, predicción 0.04s
+  tiempos | BCW (Original) | Random Forest | rep 2: entrenamiento 0.56s, predicción 0.04s
+  tiempos | BCW (Original) | Gradient Boosting | rep 0: entrenamiento 0.22s, predicción 0.00s
+  tiempos | BCW (Original) | Gradient Boosting | rep 1: entrenamiento 0.23s, predicción 0.00s
+  tiempos | BCW (Original) | Gradient Boosting | rep 2: entrenamiento 0.22s, predicción 0.00s
+  tiempos | BCW (Original) | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | CV-KNN | rep 0: entrenamiento 0.07s, predicción 0.00s
+  tiempos | BCW (Original) | CV-KNN | rep 1: entrenamiento 0.08s, predicción 0.00s
+  tiempos | BCW (Original) | CV-KNN | rep 2: entrenamiento 0.07s, predicción 0.00s
+  tiempos | BCW (Original) | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | BCW (Original) | CM-KNN | rep 0: entrenamiento 0.01s, predicción 5.01s
+  tiempos | BCW (Original) | CM-KNN | rep 1: entrenamiento 0.01s, predicción 4.94s
+  tiempos | BCW (Original) | CM-KNN | rep 2: entrenamiento 0.01s, predicción 4.94s
+  tiempos | BCW (Original) | One-Step KNN | rep 0: entrenamiento 13.94s, predicción 0.00s
+  tiempos | BCW (Original) | One-Step KNN | rep 1: entrenamiento 13.77s, predicción 0.00s
+  tiempos | BCW (Original) | One-Step KNN | rep 2: entrenamiento 13.82s, predicción 0.00s
+  tiempos | Iris | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | CART (Gini + poda) | rep 0: entrenamiento 0.18s, predicción 0.00s
+  tiempos | Iris | CART (Gini + poda) | rep 1: entrenamiento 0.17s, predicción 0.00s
+  tiempos | Iris | CART (Gini + poda) | rep 2: entrenamiento 0.17s, predicción 0.00s
+  tiempos | Iris | C5.0 | rep 0: entrenamiento 2.45s, predicción 2.32s
+  tiempos | Iris | C5.0 | rep 1: entrenamiento 2.33s, predicción 2.30s
+  tiempos | Iris | C5.0 | rep 2: entrenamiento 2.29s, predicción 2.38s
+  tiempos | Iris | CHAID | rep 0: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Iris | CHAID | rep 1: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Iris | CHAID | rep 2: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Iris | Random Forest | rep 0: entrenamiento 0.53s, predicción 0.04s
+  tiempos | Iris | Random Forest | rep 1: entrenamiento 0.54s, predicción 0.03s
+  tiempos | Iris | Random Forest | rep 2: entrenamiento 0.55s, predicción 0.04s
+  tiempos | Iris | Gradient Boosting | rep 0: entrenamiento 0.50s, predicción 0.00s
+  tiempos | Iris | Gradient Boosting | rep 1: entrenamiento 0.48s, predicción 0.00s
+  tiempos | Iris | Gradient Boosting | rep 2: entrenamiento 0.47s, predicción 0.00s
+  tiempos | Iris | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | CV-KNN | rep 0: entrenamiento 0.06s, predicción 0.00s
+  tiempos | Iris | CV-KNN | rep 1: entrenamiento 0.06s, predicción 0.00s
+  tiempos | Iris | CV-KNN | rep 2: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Iris | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Iris | CM-KNN | rep 0: entrenamiento 0.00s, predicción 0.04s
+  tiempos | Iris | CM-KNN | rep 1: entrenamiento 0.00s, predicción 0.05s
+  tiempos | Iris | CM-KNN | rep 2: entrenamiento 0.00s, predicción 0.05s
+  tiempos | Iris | One-Step KNN | rep 0: entrenamiento 0.91s, predicción 0.00s
+  tiempos | Iris | One-Step KNN | rep 1: entrenamiento 0.90s, predicción 0.00s
+  tiempos | Iris | One-Step KNN | rep 2: entrenamiento 0.93s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CART (Gini + poda) | rep 0: entrenamiento 0.04s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CART (Gini + poda) | rep 1: entrenamiento 0.05s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CART (Gini + poda) | rep 2: entrenamiento 0.05s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | C5.0 | rep 0: entrenamiento 2.35s, predicción 2.31s
+  tiempos | Ortogonal IF-THEN | C5.0 | rep 1: entrenamiento 2.35s, predicción 2.38s
+  tiempos | Ortogonal IF-THEN | C5.0 | rep 2: entrenamiento 2.43s, predicción 2.33s
+  tiempos | Ortogonal IF-THEN | CHAID | rep 0: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CHAID | rep 1: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CHAID | rep 2: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Random Forest | rep 0: entrenamiento 0.56s, predicción 0.03s
+  tiempos | Ortogonal IF-THEN | Random Forest | rep 1: entrenamiento 0.56s, predicción 0.04s
+  tiempos | Ortogonal IF-THEN | Random Forest | rep 2: entrenamiento 0.55s, predicción 0.04s
+  tiempos | Ortogonal IF-THEN | Gradient Boosting | rep 0: entrenamiento 0.17s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Gradient Boosting | rep 1: entrenamiento 0.16s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Gradient Boosting | rep 2: entrenamiento 0.17s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CV-KNN | rep 0: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CV-KNN | rep 1: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CV-KNN | rep 2: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | CM-KNN | rep 0: entrenamiento 0.01s, predicción 7.24s
+  tiempos | Ortogonal IF-THEN | CM-KNN | rep 1: entrenamiento 0.01s, predicción 7.35s
+  tiempos | Ortogonal IF-THEN | CM-KNN | rep 2: entrenamiento 0.01s, predicción 7.20s
+  tiempos | Ortogonal IF-THEN | One-Step KNN | rep 0: entrenamiento 14.00s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | One-Step KNN | rep 1: entrenamiento 14.08s, predicción 0.00s
+  tiempos | Ortogonal IF-THEN | One-Step KNN | rep 2: entrenamiento 14.04s, predicción 0.00s
+  tiempos | Circles | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | CART (Gini + poda) | rep 0: entrenamiento 0.35s, predicción 0.00s
+  tiempos | Circles | CART (Gini + poda) | rep 1: entrenamiento 0.34s, predicción 0.00s
+  tiempos | Circles | CART (Gini + poda) | rep 2: entrenamiento 0.34s, predicción 0.00s
+  tiempos | Circles | C5.0 | rep 0: entrenamiento 2.34s, predicción 2.38s
+  tiempos | Circles | C5.0 | rep 1: entrenamiento 2.35s, predicción 2.29s
+  tiempos | Circles | C5.0 | rep 2: entrenamiento 2.37s, predicción 2.29s
+  tiempos | Circles | CHAID | rep 0: entrenamiento 0.03s, predicción 0.00s
+  tiempos | Circles | CHAID | rep 1: entrenamiento 0.03s, predicción 0.00s
+  tiempos | Circles | CHAID | rep 2: entrenamiento 0.03s, predicción 0.00s
+  tiempos | Circles | Random Forest | rep 0: entrenamiento 0.60s, predicción 0.04s
+  tiempos | Circles | Random Forest | rep 1: entrenamiento 0.60s, predicción 0.04s
+  tiempos | Circles | Random Forest | rep 2: entrenamiento 0.60s, predicción 0.04s
+  tiempos | Circles | Gradient Boosting | rep 0: entrenamiento 0.23s, predicción 0.00s
+  tiempos | Circles | Gradient Boosting | rep 1: entrenamiento 0.25s, predicción 0.00s
+  tiempos | Circles | Gradient Boosting | rep 2: entrenamiento 0.23s, predicción 0.00s
+  tiempos | Circles | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | CV-KNN | rep 0: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Circles | CV-KNN | rep 1: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Circles | CV-KNN | rep 2: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Circles | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Circles | CM-KNN | rep 0: entrenamiento 0.01s, predicción 7.20s
+  tiempos | Circles | CM-KNN | rep 1: entrenamiento 0.01s, predicción 7.21s
+  tiempos | Circles | CM-KNN | rep 2: entrenamiento 0.01s, predicción 7.22s
+  tiempos | Circles | One-Step KNN | rep 0: entrenamiento 14.42s, predicción 0.00s
+  tiempos | Circles | One-Step KNN | rep 1: entrenamiento 15.07s, predicción 0.00s
+  tiempos | Circles | One-Step KNN | rep 2: entrenamiento 14.02s, predicción 0.00s
+  tiempos | Moons | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | CART (Gini + poda) | rep 0: entrenamiento 0.82s, predicción 0.00s
+  tiempos | Moons | CART (Gini + poda) | rep 1: entrenamiento 0.85s, predicción 0.00s
+  tiempos | Moons | CART (Gini + poda) | rep 2: entrenamiento 0.84s, predicción 0.00s
+  tiempos | Moons | C5.0 | rep 0: entrenamiento 2.32s, predicción 2.33s
+  tiempos | Moons | C5.0 | rep 1: entrenamiento 2.35s, predicción 2.34s
+  tiempos | Moons | C5.0 | rep 2: entrenamiento 2.37s, predicción 2.28s
+  tiempos | Moons | CHAID | rep 0: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Moons | CHAID | rep 1: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Moons | CHAID | rep 2: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Moons | Random Forest | rep 0: entrenamiento 0.62s, predicción 0.04s
+  tiempos | Moons | Random Forest | rep 1: entrenamiento 0.62s, predicción 0.04s
+  tiempos | Moons | Random Forest | rep 2: entrenamiento 0.61s, predicción 0.04s
+  tiempos | Moons | Gradient Boosting | rep 0: entrenamiento 0.25s, predicción 0.00s
+  tiempos | Moons | Gradient Boosting | rep 1: entrenamiento 0.23s, predicción 0.00s
+  tiempos | Moons | Gradient Boosting | rep 2: entrenamiento 0.25s, predicción 0.00s
+  tiempos | Moons | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | CV-KNN | rep 0: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Moons | CV-KNN | rep 1: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Moons | CV-KNN | rep 2: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Moons | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Moons | CM-KNN | rep 0: entrenamiento 0.01s, predicción 7.19s
+  tiempos | Moons | CM-KNN | rep 1: entrenamiento 0.01s, predicción 7.08s
+  tiempos | Moons | CM-KNN | rep 2: entrenamiento 0.01s, predicción 7.24s
+  tiempos | Moons | One-Step KNN | rep 0: entrenamiento 13.95s, predicción 0.00s
+  tiempos | Moons | One-Step KNN | rep 1: entrenamiento 13.55s, predicción 0.00s
+  tiempos | Moons | One-Step KNN | rep 2: entrenamiento 13.88s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CART (Gini + poda) | rep 0: entrenamiento 0.27s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CART (Gini + poda) | rep 1: entrenamiento 0.27s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CART (Gini + poda) | rep 2: entrenamiento 0.27s, predicción 0.00s
+  tiempos | Lineal rotado 45° | C5.0 | rep 0: entrenamiento 2.39s, predicción 2.31s
+  tiempos | Lineal rotado 45° | C5.0 | rep 1: entrenamiento 2.40s, predicción 2.31s
+  tiempos | Lineal rotado 45° | C5.0 | rep 2: entrenamiento 2.36s, predicción 2.35s
+  tiempos | Lineal rotado 45° | CHAID | rep 0: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CHAID | rep 1: entrenamiento 0.02s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CHAID | rep 2: entrenamiento 0.03s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Random Forest | rep 0: entrenamiento 0.57s, predicción 0.04s
+  tiempos | Lineal rotado 45° | Random Forest | rep 1: entrenamiento 0.58s, predicción 0.04s
+  tiempos | Lineal rotado 45° | Random Forest | rep 2: entrenamiento 0.56s, predicción 0.04s
+  tiempos | Lineal rotado 45° | Gradient Boosting | rep 0: entrenamiento 0.23s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Gradient Boosting | rep 1: entrenamiento 0.24s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Gradient Boosting | rep 2: entrenamiento 0.22s, predicción 0.00s
+  tiempos | Lineal rotado 45° | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CV-KNN | rep 0: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CV-KNN | rep 1: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CV-KNN | rep 2: entrenamiento 0.07s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | Lineal rotado 45° | CM-KNN | rep 0: entrenamiento 0.01s, predicción 6.69s
+  tiempos | Lineal rotado 45° | CM-KNN | rep 1: entrenamiento 0.01s, predicción 6.80s
+  tiempos | Lineal rotado 45° | CM-KNN | rep 2: entrenamiento 0.01s, predicción 6.71s
+  tiempos | Lineal rotado 45° | One-Step KNN | rep 0: entrenamiento 13.92s, predicción 0.00s
+  tiempos | Lineal rotado 45° | One-Step KNN | rep 1: entrenamiento 13.97s, predicción 0.00s
+  tiempos | Lineal rotado 45° | One-Step KNN | rep 2: entrenamiento 14.04s, predicción 0.00s
+  tiempos | XOR rotado 45° | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | CART (Gini + poda) | rep 0: entrenamiento 0.42s, predicción 0.00s
+  tiempos | XOR rotado 45° | CART (Gini + poda) | rep 1: entrenamiento 0.43s, predicción 0.00s
+  tiempos | XOR rotado 45° | CART (Gini + poda) | rep 2: entrenamiento 0.42s, predicción 0.00s
+  tiempos | XOR rotado 45° | C5.0 | rep 0: entrenamiento 2.40s, predicción 2.33s
+  tiempos | XOR rotado 45° | C5.0 | rep 1: entrenamiento 2.34s, predicción 2.31s
+  tiempos | XOR rotado 45° | C5.0 | rep 2: entrenamiento 2.42s, predicción 2.35s
+  tiempos | XOR rotado 45° | CHAID | rep 0: entrenamiento 0.03s, predicción 0.00s
+  tiempos | XOR rotado 45° | CHAID | rep 1: entrenamiento 0.03s, predicción 0.00s
+  tiempos | XOR rotado 45° | CHAID | rep 2: entrenamiento 0.03s, predicción 0.00s
+  tiempos | XOR rotado 45° | Random Forest | rep 0: entrenamiento 0.60s, predicción 0.04s
+  tiempos | XOR rotado 45° | Random Forest | rep 1: entrenamiento 0.61s, predicción 0.05s
+  tiempos | XOR rotado 45° | Random Forest | rep 2: entrenamiento 0.60s, predicción 0.04s
+  tiempos | XOR rotado 45° | Gradient Boosting | rep 0: entrenamiento 0.24s, predicción 0.00s
+  tiempos | XOR rotado 45° | Gradient Boosting | rep 1: entrenamiento 0.24s, predicción 0.00s
+  tiempos | XOR rotado 45° | Gradient Boosting | rep 2: entrenamiento 0.23s, predicción 0.00s
+  tiempos | XOR rotado 45° | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | CV-KNN | rep 0: entrenamiento 0.07s, predicción 0.00s
+  tiempos | XOR rotado 45° | CV-KNN | rep 1: entrenamiento 0.07s, predicción 0.00s
+  tiempos | XOR rotado 45° | CV-KNN | rep 2: entrenamiento 0.07s, predicción 0.00s
+  tiempos | XOR rotado 45° | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | CM-KNN | rep 0: entrenamiento 0.01s, predicción 7.15s
+  tiempos | XOR rotado 45° | CM-KNN | rep 1: entrenamiento 0.01s, predicción 9.22s
+  tiempos | XOR rotado 45° | CM-KNN | rep 2: entrenamiento 0.01s, predicción 7.18s
+  tiempos | XOR rotado 45° | One-Step KNN | rep 0: entrenamiento 13.99s, predicción 0.00s
+  tiempos | XOR rotado 45° | One-Step KNN | rep 1: entrenamiento 14.00s, predicción 0.00s
+  tiempos | XOR rotado 45° | One-Step KNN | rep 2: entrenamiento 13.91s, predicción 0.00s
+  tiempos | XOR 0° | Árbol de Decisión (entropía) | rep 0: entrenamiento 0.01s, predicción 0.00s
+  tiempos | XOR 0° | Árbol de Decisión (entropía) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Árbol de Decisión (entropía) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | CART (Gini + poda) | rep 0: entrenamiento 0.17s, predicción 0.00s
+  tiempos | XOR 0° | CART (Gini + poda) | rep 1: entrenamiento 0.18s, predicción 0.00s
+  tiempos | XOR 0° | CART (Gini + poda) | rep 2: entrenamiento 0.17s, predicción 0.00s
+  tiempos | XOR 0° | C5.0 | rep 0: entrenamiento 2.42s, predicción 2.30s
+  tiempos | XOR 0° | C5.0 | rep 1: entrenamiento 2.43s, predicción 2.28s
+  tiempos | XOR 0° | C5.0 | rep 2: entrenamiento 2.35s, predicción 2.32s
+  tiempos | XOR 0° | CHAID | rep 0: entrenamiento 0.01s, predicción 0.00s
+  tiempos | XOR 0° | CHAID | rep 1: entrenamiento 0.01s, predicción 0.00s
+  tiempos | XOR 0° | CHAID | rep 2: entrenamiento 0.01s, predicción 0.00s
+  tiempos | XOR 0° | Random Forest | rep 0: entrenamiento 0.64s, predicción 0.04s
+  tiempos | XOR 0° | Random Forest | rep 1: entrenamiento 0.63s, predicción 0.04s
+  tiempos | XOR 0° | Random Forest | rep 2: entrenamiento 0.64s, predicción 0.04s
+  tiempos | XOR 0° | Gradient Boosting | rep 0: entrenamiento 0.25s, predicción 0.00s
+  tiempos | XOR 0° | Gradient Boosting | rep 1: entrenamiento 0.23s, predicción 0.00s
+  tiempos | XOR 0° | Gradient Boosting | rep 2: entrenamiento 0.25s, predicción 0.00s
+  tiempos | XOR 0° | KNN (k=5) | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | KNN (k=5) | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | KNN (k=5) | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Mínima Distancia | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Mínima Distancia | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Mínima Distancia | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | CV-KNN | rep 0: entrenamiento 0.07s, predicción 0.00s
+  tiempos | XOR 0° | CV-KNN | rep 1: entrenamiento 0.07s, predicción 0.00s
+  tiempos | XOR 0° | CV-KNN | rep 2: entrenamiento 0.07s, predicción 0.00s
+  tiempos | XOR 0° | Direct-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Direct-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Direct-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Distances-CS-KNN | rep 0: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Distances-CS-KNN | rep 1: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | Distances-CS-KNN | rep 2: entrenamiento 0.00s, predicción 0.00s
+  tiempos | XOR 0° | CM-KNN | rep 0: entrenamiento 0.01s, predicción 7.42s
+  tiempos | XOR 0° | CM-KNN | rep 1: entrenamiento 0.01s, predicción 7.33s
+  tiempos | XOR 0° | CM-KNN | rep 2: entrenamiento 0.01s, predicción 7.28s
+  tiempos | XOR 0° | One-Step KNN | rep 0: entrenamiento 13.60s, predicción 0.00s
+  tiempos | XOR 0° | One-Step KNN | rep 1: entrenamiento 13.84s, predicción 0.00s
+  tiempos | XOR 0° | One-Step KNN | rep 2: entrenamiento 14.00s, predicción 0.00s
+   (6901.6 s)
+[2026-10-11 13:54:56] <<< FIN PASO 4/4: src.comparativa timing | 115.1 min | OK
+[2026-10-11 13:54:56] [4/4] src.comparativa timing terminó (115 min)
+[2026-10-11 13:54:56] Terminaron todos los experimentos (parte 1 (sin Colab), 3.9 h).
+
+Parte 1 terminada. Siguiente paso, con los resultados de Colab en results/: python verificar.py --parte 2
+
+==============================================================================
+[2026-10-11 14:21:17] INICIO: parte 2 (con resultados de Colab)  |  comando: python correr.py --parte 2
+  equipo: DESKTOP-HQ7OLIU | Windows-10-10.0.19045-SP0 | Python 3.11.17 | entorno: abp-arboles | hilos lógicos: 8 | procesos en paralelo: 6
+  pasos: verify_folds -> benchmark -> significance -> summary -> src.visualization_comp
+==============================================================================
+[2026-10-11 14:21:17] Inicio de los experimentos (parte 2 (con resultados de Colab)): 5 pasos
+
+[2026-10-11 14:21:17] >>> PASO 1/5: src.comparativa verify_folds
+== comparativa verify_folds
+  Wine: 10/10 pliegues idénticos -> OK
+  Forest Fires: 10/10 pliegues idénticos -> OK
+  Credit Card: 10/10 pliegues idénticos -> OK
+  HAR: 0/5 pliegues idénticos -> NO COINCIDE
+  Concrete: 10/10 pliegues idénticos -> OK
+  Glass: 10/10 pliegues idénticos -> OK
+  BCW (Original): 10/10 pliegues idénticos -> OK
+  Iris: 10/10 pliegues idénticos -> OK
+  Ortogonal IF-THEN: 10/10 pliegues idénticos -> OK
+  Circles: 10/10 pliegues idénticos -> OK
+  Moons: 10/10 pliegues idénticos -> OK
+  Lineal rotado 45°: 10/10 pliegues idénticos -> OK
+  XOR rotado 45°: 10/10 pliegues idénticos -> OK
+  XOR 0°: 10/10 pliegues idénticos -> OK
+  RESULTADO: hay diferencias: use 'python -m src.comparativa benchmark_full' (recalcula CART, RF y GB)
+   (479.6 s)
+[2026-10-11 14:29:23] <<< FIN PASO 1/5: src.comparativa verify_folds | 8.1 min | ERROR (código 2)
+[2026-10-11 14:29:23] AVISO: los pliegues no coinciden con los de Colab. Opción: python correr.py --parte 2 --recalcular
+
+==============================================================================
+[2026-10-11 16:10:19] INICIO: parte 2 (con resultados de Colab)  |  comando: python correr.py --parte 2
+  equipo: DESKTOP-HQ7OLIU | Windows-10-10.0.19045-SP0 | Python 3.11.17 | entorno: abp-arboles | hilos lógicos: 8 | procesos en paralelo: 6
+  pasos: verify_folds -> benchmark -> significance -> summary -> src.visualization_comp
+==============================================================================
+[2026-10-11 16:10:19] Inicio de los experimentos (parte 2 (con resultados de Colab)): 5 pasos
+
+[2026-10-11 16:10:19] >>> PASO 1/5: src.comparativa verify_folds
+== comparativa verify_folds
+  Wine: 10/10 pliegues idénticos -> OK
+  Forest Fires: 10/10 pliegues idénticos -> OK
+  Credit Card: 10/10 pliegues idénticos -> OK
+  HAR: 0/5 pliegues idénticos -> NO COINCIDE
+  Concrete: 10/10 pliegues idénticos -> OK
+  Glass: 10/10 pliegues idénticos -> OK
+  BCW (Original): 10/10 pliegues idénticos -> OK
+  Iris: 10/10 pliegues idénticos -> OK
+  Ortogonal IF-THEN: 10/10 pliegues idénticos -> OK
+  Circles: 10/10 pliegues idénticos -> OK
+  Moons: 10/10 pliegues idénticos -> OK
+  Lineal rotado 45°: 10/10 pliegues idénticos -> OK
+  XOR rotado 45°: 10/10 pliegues idénticos -> OK
+  XOR 0°: 10/10 pliegues idénticos -> OK
+  RESULTADO: hay diferencias: use 'python -m src.comparativa benchmark_full' (recalcula CART, RF y GB)
+   (257.4 s)
+[2026-10-11 16:14:41] <<< FIN PASO 1/5: src.comparativa verify_folds | 4.4 min | ERROR (código 2)
+[2026-10-11 16:14:41] AVISO: algunos conjuntos tienen pliegues distintos a los de Colab (ver results/comp_verificacion_pliegues.csv): CART, RF y GB se recalculan sólo en esos conjuntos; en los demás se importan de Colab.
+
+[2026-10-11 16:14:41] >>> PASO 2/5: src.comparativa benchmark
+== comparativa benchmark
+  Pliegues distintos a los del estudio base en: HAR -> CART, RF y GB se recalculan ahí (en los demás se importan)
+  procesos en paralelo: 6
+  pliegues por calcular: 5
+  HAR | pliegue 3: CART (Gini + poda) 0.848, Random Forest 0.957, Gradient Boosting 0.954
+  HAR | pliegue 2: CART (Gini + poda) 0.901, Random Forest 0.957, Gradient Boosting 0.973
+  HAR | pliegue 0: CART (Gini + poda) 0.722, Random Forest 0.815, Gradient Boosting 0.886
+  HAR | pliegue 4: CART (Gini + poda) 0.887, Random Forest 0.936, Gradient Boosting 0.953
+  HAR | pliegue 1: CART (Gini + poda) 0.830, Random Forest 0.903, Gradient Boosting 0.912
+   (3091.4 s)
+[2026-10-11 17:06:23] <<< FIN PASO 2/5: src.comparativa benchmark | 51.7 min | OK
+[2026-10-11 17:06:23] [2/5] src.comparativa benchmark terminó (52 min)
+
+[2026-10-11 17:06:23] >>> PASO 3/5: src.comparativa significance
+== comparativa significance
+  A: conjuntos con los 13 modelos: N=13 k=13 Friedman p=6.02e-09, CD=5.06, mejor=Random Forest
+  B: los 14 conjuntos, modelos completos: N=14 k=12 Friedman p=1.14e-09, CD=4.45, mejor=Random Forest
+   (0.1 s)
+[2026-10-11 17:06:27] <<< FIN PASO 3/5: src.comparativa significance | 0.1 min | OK
+[2026-10-11 17:06:27] [3/5] src.comparativa significance terminó (0 min)
+
+[2026-10-11 17:06:27] >>> PASO 4/5: src.comparativa summary
+== comparativa summary
+  resúmenes guardados en C:\Users\olixe\Documents\ABP_Arboles\results
+   (0.1 s)
+[2026-10-11 17:06:32] <<< FIN PASO 4/5: src.comparativa summary | 0.1 min | OK
+[2026-10-11 17:06:32] [4/5] src.comparativa summary terminó (0 min)
+
+[2026-10-11 17:06:32] >>> PASO 5/5: src.visualization_comp
+  figuras en C:\Users\olixe\Documents\ABP_Arboles\figures
+[2026-10-11 17:06:43] <<< FIN PASO 5/5: src.visualization_comp | 0.2 min | OK
+[2026-10-11 17:06:43] [5/5] src.visualization_comp terminó (0 min)
+[2026-10-11 17:06:43] Terminaron todos los experimentos (parte 2 (con resultados de Colab), 0.9 h).
+
+Resultados: tablas en results/ (comp_*.csv) y figuras en figures/ (fig_comp_*.png).

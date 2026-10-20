@@ -1,0 +1,301 @@
+kind,theta,seed,model,test_acc,depth,leaves
+Lineal,0,0,DT sin poda,1.0,1.0,2.0
+Lineal,0,0,DT profundidad 1,1.0,1.0,2.0
+Lineal,0,0,DT profundidad 4,1.0,1.0,2.0
+Lineal,0,0,Random Forest,1.0,2.58,5.335
+Lineal,0,0,Gradient Boosting,1.0,3.0,2.16
+Lineal,0,1,DT sin poda,1.0,1.0,2.0
+Lineal,0,1,DT profundidad 1,1.0,1.0,2.0
+Lineal,0,1,DT profundidad 4,1.0,1.0,2.0
+Lineal,0,1,Random Forest,1.0,2.355,4.755
+Lineal,0,1,Gradient Boosting,1.0,3.0,2.17
+Lineal,0,2,DT sin poda,1.0,1.0,2.0
+Lineal,0,2,DT profundidad 1,1.0,1.0,2.0
+Lineal,0,2,DT profundidad 4,1.0,1.0,2.0
+Lineal,0,2,Random Forest,1.0,2.455,5.02
+Lineal,0,2,Gradient Boosting,1.0,3.0,2.18
+Lineal,5,0,DT sin poda,1.0,1.0,2.0
+Lineal,5,0,DT profundidad 1,1.0,1.0,2.0
+Lineal,5,0,DT profundidad 4,1.0,1.0,2.0
+Lineal,5,0,Random Forest,1.0,2.21,3.96
+Lineal,5,0,Gradient Boosting,1.0,3.0,2.16
+Lineal,5,1,DT sin poda,1.0,1.0,2.0
+Lineal,5,1,DT profundidad 1,1.0,1.0,2.0
+Lineal,5,1,DT profundidad 4,1.0,1.0,2.0
+Lineal,5,1,Random Forest,1.0,2.2,3.76
+Lineal,5,1,Gradient Boosting,1.0,3.0,2.17
+Lineal,5,2,DT sin poda,1.0,1.0,2.0
+Lineal,5,2,DT profundidad 1,1.0,1.0,2.0
+Lineal,5,2,DT profundidad 4,1.0,1.0,2.0
+Lineal,5,2,Random Forest,1.0,2.195,3.995
+Lineal,5,2,Gradient Boosting,1.0,3.0,2.18
+Lineal,10,0,DT sin poda,0.9855595667870036,3.0,5.0
+Lineal,10,0,DT profundidad 1,0.9819494584837545,1.0,2.0
+Lineal,10,0,DT profundidad 4,0.9855595667870036,3.0,5.0
+Lineal,10,0,Random Forest,0.9855595667870036,4.295,7.005
+Lineal,10,0,Gradient Boosting,0.9855595667870036,3.0,5.06
+Lineal,10,1,DT sin poda,0.9709090909090909,1.0,2.0
+Lineal,10,1,DT profundidad 1,0.9709090909090909,1.0,2.0
+Lineal,10,1,DT profundidad 4,0.9709090909090909,1.0,2.0
+Lineal,10,1,Random Forest,0.9745454545454545,2.335,4.33
+Lineal,10,1,Gradient Boosting,0.9709090909090909,3.0,2.17
+Lineal,10,2,DT sin poda,1.0,4.0,7.0
+Lineal,10,2,DT profundidad 1,0.9929078014184397,1.0,2.0
+Lineal,10,2,DT profundidad 4,1.0,4.0,7.0
+Lineal,10,2,Random Forest,1.0,4.515,7.655
+Lineal,10,2,Gradient Boosting,1.0,3.0,7.0
+Lineal,15,0,DT sin poda,0.9891696750902527,3.0,7.0
+Lineal,15,0,DT profundidad 1,0.9494584837545126,1.0,2.0
+Lineal,15,0,DT profundidad 4,0.9891696750902527,3.0,7.0
+Lineal,15,0,Random Forest,0.9891696750902527,5.405,10.68
+Lineal,15,0,Gradient Boosting,0.9891696750902527,3.0,7.03
+Lineal,15,1,DT sin poda,0.9745454545454545,3.0,5.0
+Lineal,15,1,DT profundidad 1,0.9345454545454546,1.0,2.0
+Lineal,15,1,DT profundidad 4,0.9745454545454545,3.0,5.0
+Lineal,15,1,Random Forest,0.9781818181818182,5.545,9.815
+Lineal,15,1,Gradient Boosting,0.9745454545454545,3.0,5.07
+Lineal,15,2,DT sin poda,1.0,4.0,9.0
+Lineal,15,2,DT profundidad 1,0.9609929078014184,1.0,2.0
+Lineal,15,2,DT profundidad 4,1.0,4.0,9.0
+Lineal,15,2,Random Forest,1.0,5.575,11.155
+Lineal,15,2,Gradient Boosting,1.0,3.0,7.96
+Lineal,20,0,DT sin poda,0.9855595667870036,4.0,9.0
+Lineal,20,0,DT profundidad 1,0.927797833935018,1.0,2.0
+Lineal,20,0,DT profundidad 4,0.9855595667870036,4.0,9.0
+Lineal,20,0,Random Forest,0.9927797833935018,5.89,12.715
+Lineal,20,0,Gradient Boosting,0.9855595667870036,3.0,7.83
+Lineal,20,1,DT sin poda,0.9745454545454545,5.0,11.0
+Lineal,20,1,DT profundidad 1,0.9090909090909091,1.0,2.0
+Lineal,20,1,DT profundidad 4,0.9781818181818182,4.0,10.0
+Lineal,20,1,Random Forest,0.9854545454545455,5.895,12.125
+Lineal,20,1,Gradient Boosting,0.9963636363636363,3.0,7.98
+Lineal,20,2,DT sin poda,0.9964539007092199,4.0,10.0
+Lineal,20,2,DT profundidad 1,0.9397163120567376,1.0,2.0
+Lineal,20,2,DT profundidad 4,0.9964539007092199,4.0,10.0
+Lineal,20,2,Random Forest,0.9964539007092199,5.725,11.93
+Lineal,20,2,Gradient Boosting,0.9929078014184397,3.0,7.94
+Lineal,25,0,DT sin poda,0.9891696750902527,5.0,12.0
+Lineal,25,0,DT profundidad 1,0.9025270758122743,1.0,2.0
+Lineal,25,0,DT profundidad 4,0.9927797833935018,4.0,11.0
+Lineal,25,0,Random Forest,0.9891696750902527,6.18,13.77
+Lineal,25,0,Gradient Boosting,0.9927797833935018,3.0,7.92
+Lineal,25,1,DT sin poda,0.9854545454545455,4.0,10.0
+Lineal,25,1,DT profundidad 1,0.8945454545454545,1.0,2.0
+Lineal,25,1,DT profundidad 4,0.9854545454545455,4.0,10.0
+Lineal,25,1,Random Forest,0.9963636363636363,6.12,13.525
+Lineal,25,1,Gradient Boosting,1.0,3.0,7.53
+Lineal,25,2,DT sin poda,0.9964539007092199,5.0,12.0
+Lineal,25,2,DT profundidad 1,0.9219858156028369,1.0,2.0
+Lineal,25,2,DT profundidad 4,0.9964539007092199,4.0,11.0
+Lineal,25,2,Random Forest,1.0,6.045,13.93
+Lineal,25,2,Gradient Boosting,0.9893617021276596,3.0,7.99
+Lineal,30,0,DT sin poda,0.9855595667870036,5.0,10.0
+Lineal,30,0,DT profundidad 1,0.8700361010830325,1.0,2.0
+Lineal,30,0,DT profundidad 4,0.9819494584837545,4.0,9.0
+Lineal,30,0,Random Forest,0.9963898916967509,6.33,14.17
+Lineal,30,0,Gradient Boosting,0.9963898916967509,3.0,7.63
+Lineal,30,1,DT sin poda,0.9854545454545455,5.0,13.0
+Lineal,30,1,DT profundidad 1,0.8290909090909091,1.0,2.0
+Lineal,30,1,DT profundidad 4,0.9781818181818182,4.0,11.0
+Lineal,30,1,Random Forest,1.0,6.32,14.59
+Lineal,30,1,Gradient Boosting,0.9818181818181818,3.0,7.98
+Lineal,30,2,DT sin poda,0.9929078014184397,4.0,10.0
+Lineal,30,2,DT profundidad 1,0.8865248226950354,1.0,2.0
+Lineal,30,2,DT profundidad 4,0.9929078014184397,4.0,10.0
+Lineal,30,2,Random Forest,0.9929078014184397,5.875,13.13
+Lineal,30,2,Gradient Boosting,0.9929078014184397,3.0,7.92
+Lineal,35,0,DT sin poda,0.9963898916967509,4.0,9.0
+Lineal,35,0,DT profundidad 1,0.851985559566787,1.0,2.0
+Lineal,35,0,DT profundidad 4,0.9963898916967509,4.0,9.0
+Lineal,35,0,Random Forest,1.0,6.29,14.565
+Lineal,35,0,Gradient Boosting,1.0,3.0,7.88
+Lineal,35,1,DT sin poda,0.9890909090909091,5.0,14.0
+Lineal,35,1,DT profundidad 1,0.7963636363636364,1.0,2.0
+Lineal,35,1,DT profundidad 4,0.9890909090909091,4.0,12.0
+Lineal,35,1,Random Forest,1.0,6.32,14.87
+Lineal,35,1,Gradient Boosting,1.0,3.0,7.97
+Lineal,35,2,DT sin poda,0.9893617021276596,5.0,14.0
+Lineal,35,2,DT profundidad 1,0.8475177304964538,1.0,2.0
+Lineal,35,2,DT profundidad 4,0.9858156028368794,4.0,12.0
+Lineal,35,2,Random Forest,1.0,5.975,14.355
+Lineal,35,2,Gradient Boosting,0.9929078014184397,3.0,7.87
+Lineal,40,0,DT sin poda,0.9963898916967509,4.0,9.0
+Lineal,40,0,DT profundidad 1,0.8303249097472925,1.0,2.0
+Lineal,40,0,DT profundidad 4,0.9963898916967509,4.0,9.0
+Lineal,40,0,Random Forest,1.0,6.125,14.355
+Lineal,40,0,Gradient Boosting,1.0,3.0,7.92
+Lineal,40,1,DT sin poda,0.9927272727272727,5.0,12.0
+Lineal,40,1,DT profundidad 1,0.7709090909090909,1.0,2.0
+Lineal,40,1,DT profundidad 4,0.9890909090909091,4.0,11.0
+Lineal,40,1,Random Forest,1.0,6.35,14.755
+Lineal,40,1,Gradient Boosting,0.9927272727272727,3.0,7.97
+Lineal,40,2,DT sin poda,0.9893617021276596,5.0,12.0
+Lineal,40,2,DT profundidad 1,0.8049645390070922,1.0,2.0
+Lineal,40,2,DT profundidad 4,0.9858156028368794,4.0,11.0
+Lineal,40,2,Random Forest,1.0,6.055,14.59
+Lineal,40,2,Gradient Boosting,0.9893617021276596,3.0,7.86
+Lineal,45,0,DT sin poda,0.9855595667870036,6.0,12.0
+Lineal,45,0,DT profundidad 1,0.779783393501805,1.0,2.0
+Lineal,45,0,DT profundidad 4,0.9819494584837545,4.0,9.0
+Lineal,45,0,Random Forest,1.0,6.185,14.135
+Lineal,45,0,Gradient Boosting,0.9963898916967509,3.0,7.98
+Lineal,45,1,DT sin poda,0.9963636363636363,4.0,10.0
+Lineal,45,1,DT profundidad 1,0.7345454545454545,1.0,2.0
+Lineal,45,1,DT profundidad 4,0.9963636363636363,4.0,10.0
+Lineal,45,1,Random Forest,1.0,6.35,14.99
+Lineal,45,1,Gradient Boosting,0.9963636363636363,3.0,7.99
+Lineal,45,2,DT sin poda,1.0,5.0,12.0
+Lineal,45,2,DT profundidad 1,0.7553191489361702,1.0,2.0
+Lineal,45,2,DT profundidad 4,0.9858156028368794,4.0,11.0
+Lineal,45,2,Random Forest,1.0,6.13,14.735
+Lineal,45,2,Gradient Boosting,1.0,3.0,7.99
+XOR,0,0,DT sin poda,1.0,6.0,12.0
+XOR,0,0,DT profundidad 2,0.5266666666666666,2.0,4.0
+XOR,0,0,DT profundidad 4,0.6166666666666667,4.0,8.0
+XOR,0,0,Random Forest,1.0,9.31,24.035
+XOR,0,0,Gradient Boosting,1.0,3.0,7.87
+XOR,0,1,DT sin poda,1.0,3.0,6.0
+XOR,0,1,DT profundidad 2,0.9933333333333333,2.0,4.0
+XOR,0,1,DT profundidad 4,1.0,3.0,6.0
+XOR,0,1,Random Forest,1.0,7.62,18.96
+XOR,0,1,Gradient Boosting,1.0,3.0,6.1
+XOR,0,2,DT sin poda,0.9933333333333333,5.0,10.0
+XOR,0,2,DT profundidad 2,0.5233333333333333,2.0,4.0
+XOR,0,2,DT profundidad 4,0.9366666666666666,4.0,8.0
+XOR,0,2,Random Forest,1.0,8.865,22.635
+XOR,0,2,Gradient Boosting,1.0,3.0,7.89
+XOR,5,0,DT sin poda,1.0,7.0,12.0
+XOR,5,0,DT profundidad 2,0.5233333333333333,2.0,4.0
+XOR,5,0,DT profundidad 4,0.5933333333333334,4.0,7.0
+XOR,5,0,Random Forest,1.0,8.735,20.6
+XOR,5,0,Gradient Boosting,1.0,3.0,7.89
+XOR,5,1,DT sin poda,1.0,5.0,9.0
+XOR,5,1,DT profundidad 2,0.5766666666666667,2.0,4.0
+XOR,5,1,DT profundidad 4,0.9966666666666667,4.0,8.0
+XOR,5,1,Random Forest,0.9966666666666667,7.27,16.835
+XOR,5,1,Gradient Boosting,1.0,3.0,7.69
+XOR,5,2,DT sin poda,0.9966666666666667,8.0,13.0
+XOR,5,2,DT profundidad 2,0.5566666666666666,2.0,3.0
+XOR,5,2,DT profundidad 4,0.5566666666666666,4.0,5.0
+XOR,5,2,Random Forest,1.0,9.025,20.025
+XOR,5,2,Gradient Boosting,1.0,3.0,7.81
+XOR,10,0,DT sin poda,0.9933333333333333,7.0,13.0
+XOR,10,0,DT profundidad 2,0.5466666666666666,2.0,4.0
+XOR,10,0,DT profundidad 4,0.6866666666666666,4.0,8.0
+XOR,10,0,Random Forest,0.9966666666666667,8.495,20.225
+XOR,10,0,Gradient Boosting,0.99,3.0,7.96
+XOR,10,1,DT sin poda,0.9933333333333333,7.0,12.0
+XOR,10,1,DT profundidad 2,0.55,2.0,3.0
+XOR,10,1,DT profundidad 4,0.94,4.0,7.0
+XOR,10,1,Random Forest,0.9966666666666667,8.11,18.315
+XOR,10,1,Gradient Boosting,0.9966666666666667,3.0,7.54
+XOR,10,2,DT sin poda,0.9933333333333333,8.0,14.0
+XOR,10,2,DT profundidad 2,0.5833333333333334,2.0,3.0
+XOR,10,2,DT profundidad 4,0.6066666666666667,4.0,7.0
+XOR,10,2,Random Forest,1.0,8.83,20.715
+XOR,10,2,Gradient Boosting,0.9866666666666667,3.0,7.45
+XOR,15,0,DT sin poda,0.98,6.0,10.0
+XOR,15,0,DT profundidad 2,0.6633333333333333,2.0,4.0
+XOR,15,0,DT profundidad 4,0.98,4.0,8.0
+XOR,15,0,Random Forest,0.99,8.46,20.825
+XOR,15,0,Gradient Boosting,0.98,3.0,7.62
+XOR,15,1,DT sin poda,0.9933333333333333,8.0,16.0
+XOR,15,1,DT profundidad 2,0.62,2.0,3.0
+XOR,15,1,DT profundidad 4,0.92,4.0,7.0
+XOR,15,1,Random Forest,0.9966666666666667,8.36,21.16
+XOR,15,1,Gradient Boosting,0.99,3.0,7.6
+XOR,15,2,DT sin poda,0.9933333333333333,8.0,15.0
+XOR,15,2,DT profundidad 2,0.6433333333333333,2.0,4.0
+XOR,15,2,DT profundidad 4,0.72,4.0,7.0
+XOR,15,2,Random Forest,1.0,9.1,22.27
+XOR,15,2,Gradient Boosting,0.9833333333333333,3.0,7.45
+XOR,20,0,DT sin poda,0.9833333333333333,9.0,15.0
+XOR,20,0,DT profundidad 2,0.6933333333333334,2.0,4.0
+XOR,20,0,DT profundidad 4,0.7433333333333333,4.0,8.0
+XOR,20,0,Random Forest,0.9933333333333333,9.035,23.39
+XOR,20,0,Gradient Boosting,0.98,3.0,7.78
+XOR,20,1,DT sin poda,0.9866666666666667,7.0,18.0
+XOR,20,1,DT profundidad 2,0.6966666666666667,2.0,4.0
+XOR,20,1,DT profundidad 4,0.9766666666666667,4.0,10.0
+XOR,20,1,Random Forest,1.0,9.05,23.56
+XOR,20,1,Gradient Boosting,0.9933333333333333,3.0,7.73
+XOR,20,2,DT sin poda,0.98,9.0,19.0
+XOR,20,2,DT profundidad 2,0.7233333333333334,2.0,4.0
+XOR,20,2,DT profundidad 4,0.8733333333333333,4.0,8.0
+XOR,20,2,Random Forest,0.99,9.075,23.205
+XOR,20,2,Gradient Boosting,0.97,3.0,7.67
+XOR,25,0,DT sin poda,0.98,8.0,17.0
+XOR,25,0,DT profundidad 2,0.7566666666666667,2.0,4.0
+XOR,25,0,DT profundidad 4,0.8966666666666666,4.0,8.0
+XOR,25,0,Random Forest,0.9933333333333333,9.02,24.395
+XOR,25,0,Gradient Boosting,0.9833333333333333,3.0,7.92
+XOR,25,1,DT sin poda,0.98,9.0,22.0
+XOR,25,1,DT profundidad 2,0.7766666666666666,2.0,4.0
+XOR,25,1,DT profundidad 4,0.9066666666666666,4.0,8.0
+XOR,25,1,Random Forest,1.0,9.11,24.61
+XOR,25,1,Gradient Boosting,0.9866666666666667,3.0,7.8
+XOR,25,2,DT sin poda,0.9933333333333333,9.0,22.0
+XOR,25,2,DT profundidad 2,0.82,2.0,4.0
+XOR,25,2,DT profundidad 4,0.8566666666666667,4.0,9.0
+XOR,25,2,Random Forest,0.9933333333333333,9.43,25.935
+XOR,25,2,Gradient Boosting,0.9833333333333333,3.0,7.85
+XOR,30,0,DT sin poda,0.9733333333333334,8.0,24.0
+XOR,30,0,DT profundidad 2,0.81,2.0,4.0
+XOR,30,0,DT profundidad 4,0.9366666666666666,4.0,10.0
+XOR,30,0,Random Forest,0.9933333333333333,8.815,24.48
+XOR,30,0,Gradient Boosting,0.98,3.0,7.89
+XOR,30,1,DT sin poda,0.98,8.0,18.0
+XOR,30,1,DT profundidad 2,0.8333333333333334,2.0,4.0
+XOR,30,1,DT profundidad 4,0.9133333333333333,4.0,8.0
+XOR,30,1,Random Forest,0.9966666666666667,9.03,24.235
+XOR,30,1,Gradient Boosting,0.9833333333333333,3.0,7.82
+XOR,30,2,DT sin poda,0.9833333333333333,10.0,20.0
+XOR,30,2,DT profundidad 2,0.8066666666666666,2.0,4.0
+XOR,30,2,DT profundidad 4,0.9233333333333333,4.0,8.0
+XOR,30,2,Random Forest,0.9966666666666667,9.28,25.265
+XOR,30,2,Gradient Boosting,0.9866666666666667,3.0,7.85
+XOR,35,0,DT sin poda,0.96,10.0,23.0
+XOR,35,0,DT profundidad 2,0.7766666666666666,2.0,4.0
+XOR,35,0,DT profundidad 4,0.8866666666666667,4.0,8.0
+XOR,35,0,Random Forest,0.9933333333333333,8.85,24.53
+XOR,35,0,Gradient Boosting,0.9733333333333334,3.0,7.76
+XOR,35,1,DT sin poda,0.99,8.0,18.0
+XOR,35,1,DT profundidad 2,0.86,2.0,4.0
+XOR,35,1,DT profundidad 4,0.92,4.0,8.0
+XOR,35,1,Random Forest,0.9966666666666667,9.03,23.64
+XOR,35,1,Gradient Boosting,0.99,3.0,7.62
+XOR,35,2,DT sin poda,0.9833333333333333,8.0,19.0
+XOR,35,2,DT profundidad 2,0.8766666666666667,2.0,4.0
+XOR,35,2,DT profundidad 4,0.93,4.0,9.0
+XOR,35,2,Random Forest,0.99,8.985,23.905
+XOR,35,2,Gradient Boosting,0.9866666666666667,3.0,7.87
+XOR,40,0,DT sin poda,0.9533333333333334,8.0,19.0
+XOR,40,0,DT profundidad 2,0.8266666666666667,2.0,4.0
+XOR,40,0,DT profundidad 4,0.91,4.0,9.0
+XOR,40,0,Random Forest,0.9933333333333333,8.74,23.805
+XOR,40,0,Gradient Boosting,0.9866666666666667,3.0,7.78
+XOR,40,1,DT sin poda,0.99,9.0,20.0
+XOR,40,1,DT profundidad 2,0.8666666666666667,2.0,4.0
+XOR,40,1,DT profundidad 4,0.96,4.0,10.0
+XOR,40,1,Random Forest,1.0,8.955,24.255
+XOR,40,1,Gradient Boosting,0.9933333333333333,3.0,7.64
+XOR,40,2,DT sin poda,0.9733333333333334,9.0,17.0
+XOR,40,2,DT profundidad 2,0.8933333333333333,2.0,4.0
+XOR,40,2,DT profundidad 4,0.9433333333333334,4.0,9.0
+XOR,40,2,Random Forest,0.9933333333333333,8.91,23.555
+XOR,40,2,Gradient Boosting,0.9933333333333333,3.0,7.84
+XOR,45,0,DT sin poda,0.9833333333333333,8.0,18.0
+XOR,45,0,DT profundidad 2,0.8133333333333334,2.0,4.0
+XOR,45,0,DT profundidad 4,0.9566666666666667,4.0,7.0
+XOR,45,0,Random Forest,0.9933333333333333,8.815,22.76
+XOR,45,0,Gradient Boosting,0.9833333333333333,3.0,7.79
+XOR,45,1,DT sin poda,0.98,8.0,19.0
+XOR,45,1,DT profundidad 2,0.8766666666666667,2.0,4.0
+XOR,45,1,DT profundidad 4,0.96,4.0,9.0
+XOR,45,1,Random Forest,1.0,9.085,23.565
+XOR,45,1,Gradient Boosting,1.0,3.0,7.61
+XOR,45,2,DT sin poda,0.98,7.0,18.0
+XOR,45,2,DT profundidad 2,0.8933333333333333,2.0,4.0
+XOR,45,2,DT profundidad 4,0.97,4.0,10.0
+XOR,45,2,Random Forest,0.9966666666666667,9.135,24.17
+XOR,45,2,Gradient Boosting,0.9866666666666667,3.0,7.81

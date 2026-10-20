@@ -1,0 +1,28 @@
+== benchmark_small
+  benchmark: Wine listo
+  benchmark: Forest Fires listo
+  benchmark: Concrete listo
+/usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_split.py:813: UserWarning: The least populated class in y has only 9 members, which is less than n_splits=10.
+  warnings.warn(
+  benchmark: Glass listo
+  benchmark: BCW (Original) listo
+  benchmark: Iris listo
+  benchmark: Ortogonal IF-THEN listo
+  benchmark: Circles listo
+  benchmark: Moons listo
+  benchmark: Lineal rotado 45° listo
+  benchmark: XOR rotado 45° listo
+  benchmark: XOR 0° listo
+   (68.5 s)
+== depth
+   (1.4 s)
+== ccp
+   (1.0 s)
+== correlation
+   (0.9 s)
+== distribution
+   (0.2 s)
+== scaling
+   (8.8 s)
+== rotation
+  rotación Lineal lista

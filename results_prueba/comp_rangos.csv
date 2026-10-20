@@ -1,0 +1,27 @@
+analisis,model,rango_promedio,ba_media
+A: conjuntos con los 13 modelos,KNN (k=5),2.8333333333333335,0.970104223045149
+A: conjuntos con los 13 modelos,Direct-CS-KNN,2.8333333333333335,0.970104223045149
+A: conjuntos con los 13 modelos,Random Forest,3.3333333333333335,0.9706119316552205
+A: conjuntos con los 13 modelos,Distances-CS-KNN,3.6666666666666665,0.9677894082303341
+A: conjuntos con los 13 modelos,CV-KNN,5.833333333333333,0.9607986583863467
+A: conjuntos con los 13 modelos,Gradient Boosting,6.333333333333333,0.9578480412361956
+A: conjuntos con los 13 modelos,CM-KNN,6.833333333333333,0.957889071975481
+A: conjuntos con los 13 modelos,Árbol de Decisión (entropía),8.5,0.9503895732143911
+A: conjuntos con los 13 modelos,Mínima Distancia,8.666666666666666,0.8997880352443359
+A: conjuntos con los 13 modelos,C5.0,8.666666666666666,0.9390650278858166
+A: conjuntos con los 13 modelos,CART (Gini + poda),9.833333333333334,0.9345530725548833
+A: conjuntos con los 13 modelos,CHAID,11.0,0.8990571626237713
+A: conjuntos con los 13 modelos,One-Step KNN,12.666666666666666,0.7935164526226935
+"B: los 14 conjuntos, modelos completos",KNN (k=5),2.8333333333333335,0.970104223045149
+"B: los 14 conjuntos, modelos completos",Direct-CS-KNN,2.8333333333333335,0.970104223045149
+"B: los 14 conjuntos, modelos completos",Random Forest,3.3333333333333335,0.9706119316552205
+"B: los 14 conjuntos, modelos completos",Distances-CS-KNN,3.6666666666666665,0.9677894082303341
+"B: los 14 conjuntos, modelos completos",CV-KNN,5.833333333333333,0.9607986583863467
+"B: los 14 conjuntos, modelos completos",Gradient Boosting,6.333333333333333,0.9578480412361956
+"B: los 14 conjuntos, modelos completos",CM-KNN,6.833333333333333,0.957889071975481
+"B: los 14 conjuntos, modelos completos",Árbol de Decisión (entropía),8.5,0.9503895732143911
+"B: los 14 conjuntos, modelos completos",Mínima Distancia,8.666666666666666,0.8997880352443359
+"B: los 14 conjuntos, modelos completos",C5.0,8.666666666666666,0.9390650278858166
+"B: los 14 conjuntos, modelos completos",CART (Gini + poda),9.833333333333334,0.9345530725548833
+"B: los 14 conjuntos, modelos completos",CHAID,11.0,0.8990571626237713
+"B: los 14 conjuntos, modelos completos",One-Step KNN,12.666666666666666,0.7935164526226935
