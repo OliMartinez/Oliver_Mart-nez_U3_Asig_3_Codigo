@@ -1,0 +1,21 @@
+# Entorno de Anaconda para el ABP. Crear con:
+#   conda env create -f environment.yml
+#   conda activate abp-arboles
+# Incluye R y el paquete C50 (necesario para el clasificador C5.0).
+name: abp-arboles
+channels:
+  - conda-forge
+  - nodefaults        # sin el canal 'defaults' de Anaconda
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - joblib
+  - threadpoolctl
+  - psutil
+  - imbalanced-learn
+  - r-base
+  - r-c50
