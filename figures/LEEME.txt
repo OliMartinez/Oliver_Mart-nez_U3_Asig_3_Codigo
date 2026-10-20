@@ -1,0 +1,1 @@
+Aquí se guardan las figuras. Modo con Colab: copie aquí el contenido de la carpeta figures/ de Google Drive.
